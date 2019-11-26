@@ -1,0 +1,290 @@
+﻿WEBVTT
+
+1
+00:00:00.150 --> 00:00:02.470
+<v Instructor>A common accessibility issue is disabling</v>
+
+2
+00:00:02.470 --> 00:00:04.260
+the skip links in a theme.
+
+3
+00:00:04.260 --> 00:00:08.340
+So we see that quite a bit where themes override
+
+4
+00:00:08.340 --> 00:00:09.773
+the skip links.
+
+5
+00:00:12.150 --> 00:00:16.470
+We see low contrast a lot on both text and non-text items.
+
+6
+00:00:16.470 --> 00:00:19.600
+So that's always going to be a consideration
+
+7
+00:00:19.600 --> 00:00:23.473
+and something that we need to look at Alt text issues.
+
+8
+00:00:24.734 --> 00:00:26.210
+This can be introduced both
+
+9
+00:00:26.210 --> 00:00:28.520
+from the content authoring aspect,
+
+10
+00:00:28.520 --> 00:00:31.340
+but also at the theme level,
+
+11
+00:00:31.340 --> 00:00:33.770
+or plugin level for that matter.
+
+12
+00:00:33.770 --> 00:00:38.150
+So Alt text issues are widespread with WordPress sites
+
+13
+00:00:39.260 --> 00:00:41.070
+and link text problems.
+
+14
+00:00:41.070 --> 00:00:45.350
+So if you see click here links or read more links
+
+15
+00:00:45.350 --> 00:00:47.740
+or continue reading links,
+
+16
+00:00:47.740 --> 00:00:52.740
+typically those do not get the appropriate context on them
+
+17
+00:00:53.570 --> 00:00:56.840
+especially when there's a list of posts or a grid
+
+18
+00:00:56.840 --> 00:01:00.630
+of posts that you have on say an archive page.
+
+19
+00:01:00.630 --> 00:01:05.630
+And your theme just has a continue reading or read more
+
+20
+00:01:06.330 --> 00:01:09.080
+that's repeated for each article.
+
+21
+00:01:09.080 --> 00:01:13.205
+Those out of context might be very inaccessible
+
+22
+00:01:13.205 --> 00:01:16.910
+and confusing for your end users
+
+23
+00:01:16.910 --> 00:01:18.920
+who are using assistive technology.
+
+24
+00:01:18.920 --> 00:01:22.070
+And you know maybe they can't see the connection
+
+25
+00:01:22.070 --> 00:01:25.330
+between the headline or image of the post
+
+26
+00:01:25.330 --> 00:01:27.090
+and the read more link.
+
+27
+00:01:27.090 --> 00:01:31.823
+So there are those link text problems that we see.
+
+28
+00:01:33.181 --> 00:01:36.810
+Theme developers often don't understand the use
+
+29
+00:01:36.810 --> 00:01:39.170
+of landmarks and appropriate landmarks.
+
+30
+00:01:39.170 --> 00:01:44.170
+So those create accessibility problems for folks who want
+
+31
+00:01:44.270 --> 00:01:47.960
+to jump to say the main area of the page
+
+32
+00:01:47.960 --> 00:01:50.573
+or get to the widgets or get to,
+
+33
+00:01:51.880 --> 00:01:54.793
+you know navigation, it's on the page very quickly.
+
+34
+00:01:56.460 --> 00:01:58.760
+We also see document heading structure problems
+
+35
+00:01:58.760 --> 00:02:00.450
+throughout WordPress sites.
+
+36
+00:02:00.450 --> 00:02:05.450
+So WordPress gives you a very liberal interface
+
+37
+00:02:05.661 --> 00:02:09.360
+for a liberal canvas for authoring content.
+
+38
+00:02:09.360 --> 00:02:12.430
+You can create a theme that restricts that ability, right?
+
+39
+00:02:12.430 --> 00:02:17.430
+And you can use specific database fields to then control
+
+40
+00:02:18.930 --> 00:02:22.560
+how content get entered into WordPress
+
+41
+00:02:22.560 --> 00:02:25.080
+and then output from it.
+
+42
+00:02:25.080 --> 00:02:30.080
+But in general, most themes that you find out there want
+
+43
+00:02:30.410 --> 00:02:34.090
+to take advantage of giving authors the most flexibility
+
+44
+00:02:34.090 --> 00:02:36.170
+with the types of content the structure
+
+45
+00:02:36.170 --> 00:02:40.190
+of the content, the design so we end up
+
+46
+00:02:40.190 --> 00:02:43.260
+as a result seeing document heading structure issues.
+
+47
+00:02:43.260 --> 00:02:45.110
+So that's something that we'll cover.
+
+48
+00:02:46.280 --> 00:02:51.280
+And in themes, if you override the WordPress defaults,
+
+49
+00:02:51.500 --> 00:02:53.790
+you can lose out on the language of the page
+
+50
+00:02:53.790 --> 00:02:56.230
+or if you have say a language switcher,
+
+51
+00:02:56.230 --> 00:02:58.740
+the language of the parts of the page.
+
+52
+00:02:58.740 --> 00:03:03.740
+So there are ways to address that as well.
+
+53
+00:03:04.460 --> 00:03:06.310
+Then we have multimedia.
+
+54
+00:03:06.310 --> 00:03:09.720
+So multimedia accessibility problems abound,
+
+55
+00:03:09.720 --> 00:03:12.506
+not only on WordPress sites, but across the internet
+
+56
+00:03:12.506 --> 00:03:17.506
+that can be a range of issues there.
+
+57
+00:03:17.860 --> 00:03:22.860
+So the multimedia issues that we see the most
+
+58
+00:03:24.300 --> 00:03:26.920
+are inaccessible player controls,
+
+59
+00:03:26.920 --> 00:03:30.330
+as well as video without captions
+
+60
+00:03:30.330 --> 00:03:32.560
+or with auto generated captions
+
+61
+00:03:32.560 --> 00:03:35.413
+and audio without transcripts.
+
+62
+00:03:37.090 --> 00:03:42.090
+So Stephanie had a link in the chat for a blog post
+
+63
+00:03:44.930 --> 00:03:49.370
+and I think in the link, it says it's from 2015.
+
+64
+00:03:49.370 --> 00:03:53.820
+And the title looks like is why click
+
+65
+00:03:53.820 --> 00:03:56.650
+here is a terrible link and want to write instead.
+
+66
+00:03:56.650 --> 00:03:59.340
+And that's excellent.
+
+67
+00:03:59.340 --> 00:04:01.160
+I think that's a timeless post.
+
+68
+00:04:01.160 --> 00:04:05.520
+Sometimes I wish dates were in those links.
+
+69
+00:04:05.520 --> 00:04:10.520
+No offense meant to Stephanie and the link structure here,
+
+70
+00:04:13.740 --> 00:04:18.740
+but you know this could be an article from 2006
+
+71
+00:04:19.330 --> 00:04:20.570
+and it would still be relevant.
+
+72
+00:04:20.570 --> 00:04:22.570
+So thank you for sharing this Stephanie.
+

@@ -1,0 +1,338 @@
+﻿1
+00:00:00,080 --> 00:00:00,913
+- [Lecturer] Let's talk about
+
+2
+00:00:00,913 --> 00:00:02,559
+authoring accessible Wordpress content.
+
+3
+00:00:02,559 --> 00:00:07,559
+This is something that is as important
+
+4
+00:00:10,000 --> 00:00:13,900
+as making your theme
+support accessibility.
+
+5
+00:00:13,900 --> 00:00:18,900
+So we have the Gutenberg
+Editor and too much fanfare
+
+6
+00:00:19,888 --> 00:00:24,480
+then also too much
+consternation, hand-wringing,
+
+7
+00:00:24,480 --> 00:00:29,480
+and loud proclamations of
+malfeasance around accessibility.
+
+8
+00:00:30,710 --> 00:00:33,086
+We came out with a list
+
+9
+00:00:33,086 --> 00:00:35,923
+of known accessibility
+issues with Gutenberg.
+
+10
+00:00:36,840 --> 00:00:39,900
+Gutenberg is supposed to
+be the future of editing
+
+11
+00:00:39,900 --> 00:00:40,860
+within Wordpress.
+
+12
+00:00:40,860 --> 00:00:42,410
+To have block-based content.
+
+13
+00:00:42,410 --> 00:00:46,915
+To make it easier and a
+better product to use.
+
+14
+00:00:46,915 --> 00:00:49,470
+However, with accessibility,
+
+15
+00:00:49,470 --> 00:00:53,630
+it just wasn't really addressed.
+
+16
+00:00:53,630 --> 00:00:56,738
+In fact it was outright dismissed
+
+17
+00:00:56,738 --> 00:01:00,192
+by the core team working on Gutenberg
+
+18
+00:01:00,192 --> 00:01:02,030
+and that's unfortunate.
+
+19
+00:01:02,030 --> 00:01:04,060
+I think these people are good people
+
+20
+00:01:04,060 --> 00:01:07,370
+that just didn't value the feedback
+
+21
+00:01:07,370 --> 00:01:09,653
+from the accessibility team at the time.
+
+22
+00:01:11,310 --> 00:01:14,940
+Now we have a number of
+issues open for accessibility.
+
+23
+00:01:14,940 --> 00:01:19,940
+They've closed 868 issues that were tagged
+
+24
+00:01:20,360 --> 00:01:21,350
+with accessibility.
+
+25
+00:01:21,350 --> 00:01:24,160
+So they've been working hard on this.
+
+26
+00:01:24,160 --> 00:01:26,780
+They have 215 of them open.
+
+27
+00:01:26,780 --> 00:01:28,770
+And these are open in various states.
+
+28
+00:01:28,770 --> 00:01:31,200
+People have worked on
+these issues in some way.
+
+29
+00:01:31,200 --> 00:01:34,590
+Some are ready for review and publishing.
+
+30
+00:01:34,590 --> 00:01:36,650
+Some of them need additional feedback
+
+31
+00:01:36,650 --> 00:01:39,070
+or design feedback or something.
+
+32
+00:01:39,070 --> 00:01:41,320
+Some issues just haven't been addressed.
+
+33
+00:01:41,320 --> 00:01:44,590
+Gutenberg is problematic for people
+
+34
+00:01:44,590 --> 00:01:49,100
+who need accessibility support
+in the authoring interface.
+
+35
+00:01:49,100 --> 00:01:50,650
+It will remain problematic
+
+36
+00:01:50,650 --> 00:01:55,650
+until they fix all of the
+issues or most of the issues.
+
+37
+00:01:58,130 --> 00:02:03,130
+So with that said, Gutenberg
+is out in the wild,
+
+38
+00:02:05,984 --> 00:02:08,520
+but it's not ready for primetime
+
+39
+00:02:09,440 --> 00:02:14,440
+if your team needs an accessible
+interface to work with.
+
+40
+00:02:15,276 --> 00:02:19,550
+We have the option of
+installing the classic editor.
+
+41
+00:02:19,550 --> 00:02:21,700
+That's something that
+we can definitely do.
+
+42
+00:02:23,080 --> 00:02:25,490
+One good thing is that
+
+43
+00:02:25,490 --> 00:02:29,730
+if you are using the Gutenberg editor,
+
+44
+00:02:29,730 --> 00:02:32,250
+you can still author accessible content.
+
+45
+00:02:32,250 --> 00:02:36,600
+You just have to know
+what to do with that.
+
+46
+00:02:36,600 --> 00:02:40,200
+That's what this whole
+section of content today
+
+47
+00:02:40,200 --> 00:02:42,416
+after our break is about.
+
+48
+00:02:42,416 --> 00:02:44,320
+What do we need to keep in mind
+
+49
+00:02:44,320 --> 00:02:46,623
+as we author this accessible content.
+
+50
+00:02:47,760 --> 00:02:52,410
+You can still do it with
+Gutenberg and I'm confident
+
+51
+00:02:52,410 --> 00:02:57,410
+that the efforts of the core
+team that works on Gutenberg,
+
+52
+00:02:57,600 --> 00:03:00,610
+the folks at automatic, who dedicate a lot
+
+53
+00:03:00,610 --> 00:03:04,040
+of their staff time to
+core team development,
+
+54
+00:03:04,040 --> 00:03:06,006
+they are interested in this.
+
+55
+00:03:06,006 --> 00:03:10,260
+I feel like they had an
+embarrassing wake up call
+
+56
+00:03:10,260 --> 00:03:12,990
+about accessibility and the
+way that they treated it.
+
+57
+00:03:12,990 --> 00:03:16,760
+With their release of Gutenberg
+it was ham-handed at best.
+
+58
+00:03:18,580 --> 00:03:22,620
+Enough of the tongue-lashing
+of Wordpress core team
+
+59
+00:03:22,620 --> 00:03:25,942
+and Automatic at this point though.
+
+60
+00:03:25,942 --> 00:03:30,010
+I do want to say, they
+are genuinely interested
+
+61
+00:03:30,010 --> 00:03:34,070
+in fixing the problems
+that they had introduced.
+
+62
+00:03:34,070 --> 00:03:36,970
+I just wish they hadn't
+done it in the first place.
+
+63
+00:03:36,970 --> 00:03:39,040
+So we have the classic editor as well
+
+64
+00:03:39,040 --> 00:03:41,720
+and that is something that
+I would recommend for anyone
+
+65
+00:03:41,720 --> 00:03:46,720
+that has a diverse team of
+folks that include people
+
+66
+00:03:49,910 --> 00:03:50,980
+with disabilities.
+
+67
+00:03:50,980 --> 00:03:52,160
+The fact of the matter is,
+
+68
+00:03:52,160 --> 00:03:57,160
+if you code a site that
+requires the Gutenberg editor
+
+69
+00:03:57,656 --> 00:04:01,940
+to maintain the content,
+hopefully that's not the case,
+
+70
+00:04:01,940 --> 00:04:04,570
+but if you do that, then
+you lock yourself into that.
+
+71
+00:04:04,570 --> 00:04:09,150
+If by some chance you need
+that accessible interface
+
+72
+00:04:09,150 --> 00:04:10,980
+and can't switch to classic editor,
+
+73
+00:04:10,980 --> 00:04:12,795
+then you're in a bit of a bind.
+
+74
+00:04:12,795 --> 00:04:17,795
+So definitely work on ensuring
+
+75
+00:04:18,440 --> 00:04:21,480
+that the classic editor is
+fine to use with any theme
+
+76
+00:04:21,480 --> 00:04:26,480
+that you develop or put into place.
+

@@ -1,0 +1,450 @@
+﻿WEBVTT
+
+1
+00:00:00.400 --> 00:00:02.650
+<v Instructor>One thing that you can do</v>
+
+2
+00:00:02.650 --> 00:00:05.430
+is that if you like, overall,
+
+3
+00:00:05.430 --> 00:00:10.430
+the structure that an accessibility-ready theme has,
+
+4
+00:00:11.410 --> 00:00:16.330
+you can build a child theme on top of it and create
+
+5
+00:00:16.330 --> 00:00:20.350
+your customizations for that.
+
+6
+00:00:20.350 --> 00:00:22.730
+So that's one of the things that we've done here,
+
+7
+00:00:22.730 --> 00:00:25.890
+is we picked an accessibility-ready theme
+
+8
+00:00:25.890 --> 00:00:29.640
+out of the Theme Directory for WordPress.
+
+9
+00:00:29.640 --> 00:00:32.090
+This one happens to be called Reykjavik,
+
+10
+00:00:32.090 --> 00:00:37.090
+so it has some accessibility supports by default,
+
+11
+00:00:38.350 --> 00:00:41.860
+because it passed those checks,
+
+12
+00:00:41.860 --> 00:00:43.870
+but we did our own customizations,
+
+13
+00:00:43.870 --> 00:00:45.990
+and we created a child theme on top of that.
+
+14
+00:00:45.990 --> 00:00:49.710
+What that allows us to do is, through child theming,
+
+15
+00:00:49.710 --> 00:00:53.970
+we're able to make changes
+
+16
+00:00:53.970 --> 00:00:57.540
+and customizations on top of that base theme that we have,
+
+17
+00:00:57.540 --> 00:00:59.077
+that parent theme of Reykjavik,
+
+18
+00:00:59.077 --> 00:01:01.630
+and add our own code on top
+
+19
+00:01:01.630 --> 00:01:06.630
+that might be just CSS, or it might be changes
+
+20
+00:01:06.860 --> 00:01:08.466
+to the structure of something
+
+21
+00:01:08.466 --> 00:01:13.466
+like, you know, like how these bullets lay out, right,
+
+22
+00:01:16.871 --> 00:01:20.330
+or you know, what background image comes through,
+
+23
+00:01:20.330 --> 00:01:25.023
+or you know, how these buttons work and look here,
+
+24
+00:01:29.618 --> 00:01:32.810
+and you know, what we do to add, say,
+
+25
+00:01:32.810 --> 00:01:34.370
+skip back to the main navigation
+
+26
+00:01:34.370 --> 00:01:37.293
+or what we do with forms.
+
+27
+00:01:38.890 --> 00:01:41.530
+So we can, through our child theme,
+
+28
+00:01:41.530 --> 00:01:44.628
+override the defaults that are in the parent theme,
+
+29
+00:01:44.628 --> 00:01:49.057
+and that allows us to update that parent theme
+
+30
+00:01:49.057 --> 00:01:51.290
+without breaking the changes.
+
+31
+00:01:51.290 --> 00:01:55.700
+So one thing that we had was we had some Google fonts that,
+
+32
+00:01:55.700 --> 00:01:58.040
+or not Google fonts, we had Typekit fonts,
+
+33
+00:01:58.040 --> 00:02:02.040
+so this theme uses Google fonts, and the parent theme does,
+
+34
+00:02:02.040 --> 00:02:05.360
+and we created Typekit fonts for this,
+
+35
+00:02:05.360 --> 00:02:07.960
+so we wanted to use some Typekit fonts.
+
+36
+00:02:07.960 --> 00:02:10.930
+That's all great, but the parent theme didn't support it,
+
+37
+00:02:10.930 --> 00:02:15.930
+so we added it in, and one of the things that we did
+
+38
+00:02:16.260 --> 00:02:17.720
+is when we first started working
+
+39
+00:02:17.720 --> 00:02:20.315
+with the parent theme, Reykjavik,
+
+40
+00:02:20.315 --> 00:02:24.100
+someone added the fonts to Typekit
+
+41
+00:02:24.100 --> 00:02:27.135
+in the parent theme, and then,
+
+42
+00:02:27.135 --> 00:02:29.277
+I came along, and I said, "Okay, I'm gonna take
+
+43
+00:02:29.277 --> 00:02:30.717
+"all these customizations, and I'm gonna put them
+
+44
+00:02:30.717 --> 00:02:31.940
+"in a child theme."
+
+45
+00:02:31.940 --> 00:02:34.090
+Well, I forgot about the Typekit fonts.
+
+46
+00:02:34.090 --> 00:02:38.600
+I did all the other things, and we created a child theme,
+
+47
+00:02:38.600 --> 00:02:42.883
+and we have all our overrides in it, and then,
+
+48
+00:02:43.890 --> 00:02:46.246
+we launched the site, and everything was looking great,
+
+49
+00:02:46.246 --> 00:02:51.246
+and the other day, I went in, and I made some updates,
+
+50
+00:02:51.950 --> 00:02:53.370
+so of course, WordPress,
+
+51
+00:02:53.370 --> 00:02:55.720
+you know, you have a lot of updates happen.
+
+52
+00:02:55.720 --> 00:02:58.008
+You have plugin updates, you have theme updates,
+
+53
+00:02:58.008 --> 00:03:02.640
+and this theme developer, who's very responsible,
+
+54
+00:03:02.640 --> 00:03:05.063
+I think it's WebMan Themes out of Europe,
+
+55
+00:03:06.370 --> 00:03:09.050
+they updated the Reykjavik theme,
+
+56
+00:03:09.050 --> 00:03:12.440
+and what happens when you update a theme is,
+
+57
+00:03:12.440 --> 00:03:16.790
+or a plugin is it overwrites itself with the new code.
+
+58
+00:03:16.790 --> 00:03:21.130
+So, and it overwrites it wholesale, so we lost,
+
+59
+00:03:21.130 --> 00:03:24.070
+in the parent theme, where we had called
+
+60
+00:03:24.070 --> 00:03:26.780
+for the Typekit fonts, we lost that call.
+
+61
+00:03:26.780 --> 00:03:28.150
+It was in the header or PHP,
+
+62
+00:03:28.150 --> 00:03:29.210
+and I just forgot about it.
+
+63
+00:03:29.210 --> 00:03:30.960
+I didn't, or I didn't notice it,
+
+64
+00:03:30.960 --> 00:03:32.510
+so I didn't put it in the child theme.
+
+65
+00:03:32.510 --> 00:03:35.410
+So I had to go back and add it to the child theme,
+
+66
+00:03:35.410 --> 00:03:40.410
+and so the lesson is, if you find a theme that you like,
+
+67
+00:03:41.520 --> 00:03:45.330
+in the Theme repository, and it's accessibility-ready,
+
+68
+00:03:45.330 --> 00:03:49.320
+that's great, you can go ahead and use that theme,
+
+69
+00:03:49.320 --> 00:03:52.500
+if you want, and you can use it as your base theme,
+
+70
+00:03:52.500 --> 00:03:54.130
+but if you make modifications to it,
+
+71
+00:03:54.130 --> 00:03:58.070
+or if you plan to, beyond just adding content
+
+72
+00:03:58.070 --> 00:04:00.670
+in your WordPress database and changing,
+
+73
+00:04:00.670 --> 00:04:03.763
+or customizing, making, you know, customized,
+
+74
+00:04:05.220 --> 00:04:07.150
+customizing the variables that are in here,
+
+75
+00:04:07.150 --> 00:04:09.770
+like if I change any of, say, you know,
+
+76
+00:04:09.770 --> 00:04:11.820
+the colors, right, so I wanna do a prime,
+
+77
+00:04:11.820 --> 00:04:14.227
+a different default primary color here
+
+78
+00:04:14.227 --> 00:04:19.227
+for this, so I can change it from blue to a purplish color.
+
+79
+00:04:19.750 --> 00:04:22.253
+So now, instead of blue, we see purple here.
+
+80
+00:04:23.250 --> 00:04:27.650
+You know, you can make these little customizer modifications
+
+81
+00:04:27.650 --> 00:04:29.810
+no problem in parent themes,
+
+82
+00:04:29.810 --> 00:04:33.750
+but if you plan to do anything to the actual files,
+
+83
+00:04:33.750 --> 00:04:36.660
+in your parent theme, then you absolutely need
+
+84
+00:04:36.660 --> 00:04:39.210
+to use a child theme, and that way,
+
+85
+00:04:39.210 --> 00:04:42.210
+you can make these changes in a nondestructive way,
+
+86
+00:04:42.210 --> 00:04:44.816
+and those changes get preserved
+
+87
+00:04:44.816 --> 00:04:49.063
+even if the parent theme updates itself.
+
+88
+00:04:49.920 --> 00:04:54.920
+So the things that we have done in our theme
+
+89
+00:04:55.240 --> 00:04:59.090
+are to call some additional helper files.
+
+90
+00:04:59.090 --> 00:05:03.090
+I believe we're calling a JavaScript
+
+91
+00:05:03.090 --> 00:05:07.010
+to provide some additional accessibility supports
+
+92
+00:05:08.537 --> 00:05:09.778
+for the main menu,
+
+93
+00:05:09.778 --> 00:05:12.893
+for when you open up the search,
+
+94
+00:05:14.140 --> 00:05:17.130
+the search box, and I'll look for that,
+
+95
+00:05:17.130 --> 00:05:18.610
+and see if I can find that
+
+96
+00:05:18.610 --> 00:05:20.310
+and show you what that looks like.
+
+97
+00:05:24.950 --> 00:05:25.783
+So let's see.
+
+98
+00:05:25.783 --> 00:05:28.593
+We're having the Typekits, and then,
+
+99
+00:05:31.701 --> 00:05:34.280
+we have jQuery coming in, because it's WordPress.
+
+100
+00:05:34.280 --> 00:05:35.113
+Let's see.
+
+101
+00:05:36.632 --> 00:05:40.987
+And I don't think, I don't think I have it here on this.
+
+102
+00:05:47.540 --> 00:05:48.850
+Yeah.
+
+103
+00:05:48.850 --> 00:05:50.430
+This probably doesn't have
+
+104
+00:05:50.430 --> 00:05:54.653
+that JavaScript helper file in it on this page,
+
+105
+00:05:57.329 --> 00:05:59.290
+but we've basically taken
+
+106
+00:06:01.756 --> 00:06:04.331
+the accessible defaults of WordPress,
+
+107
+00:06:04.331 --> 00:06:06.930
+using an accessibility-ready theme,
+
+108
+00:06:06.930 --> 00:06:09.490
+and then, layered our own child theme on top of that,
+
+109
+00:06:09.490 --> 00:06:13.210
+to create a more accessible and customized version
+
+110
+00:06:13.210 --> 00:06:14.973
+of this theme for us,
+
+111
+00:06:16.810 --> 00:06:21.160
+and that's what using a child theme on top
+
+112
+00:06:21.160 --> 00:06:23.510
+of an accessibility-ready theme would give you.
+

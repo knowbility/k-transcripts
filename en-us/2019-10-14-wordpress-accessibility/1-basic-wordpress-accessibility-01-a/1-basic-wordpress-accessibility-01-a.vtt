@@ -1,0 +1,426 @@
+﻿WEBVTT
+
+1
+00:00:00.150 --> 00:00:01.800
+<v Robert Jolly>So today's agenda.</v>
+
+2
+00:00:03.128 --> 00:00:06.720
+I want to cover Prerequisites and WordPress defaults,
+
+3
+00:00:06.720 --> 00:00:11.720
+so that's going to be the first section of the day
+
+4
+00:00:12.300 --> 00:00:15.080
+and then we'll get into a longer section,
+
+5
+00:00:15.080 --> 00:00:17.193
+WordPress Accessibility for Developers.
+
+6
+00:00:18.436 --> 00:00:23.436
+So if you're developing a site using a theme of any sort,
+
+7
+00:00:23.582 --> 00:00:26.023
+whether you're a theme developer or not,
+
+8
+00:00:26.960 --> 00:00:29.160
+we'll cover content for you.
+
+9
+00:00:29.160 --> 00:00:30.760
+And then we'll get into
+
+10
+00:00:30.760 --> 00:00:32.870
+WordPress Accessibility for Content Authors
+
+11
+00:00:32.870 --> 00:00:34.343
+after we break for lunch.
+
+12
+00:00:35.900 --> 00:00:39.120
+We're going to get into the prerequisites, now,
+
+13
+00:00:39.120 --> 00:00:41.743
+for what we feel like you need to know
+
+14
+00:00:41.743 --> 00:00:43.880
+to spend the day with us.
+
+15
+00:00:43.880 --> 00:00:45.860
+As we go through these prerequisites,
+
+16
+00:00:45.860 --> 00:00:48.160
+I'm not going to go into detail.
+
+17
+00:00:48.160 --> 00:00:50.590
+I'm assuming that you know most of this stuff.
+
+18
+00:00:50.590 --> 00:00:54.290
+If you don't, that is A-Okay and you can raise an issue
+
+19
+00:00:54.290 --> 00:00:57.904
+in Q &amp; A or in chat privately, if you want,
+
+20
+00:00:57.904 --> 00:00:59.954
+and we can expand on any of these topics.
+
+21
+00:01:01.320 --> 00:01:03.000
+So, what is accessibility?
+
+22
+00:01:03.000 --> 00:01:06.623
+I hope most of you that are here know this,
+
+23
+00:01:08.982 --> 00:01:13.010
+but just for us to frame the conversation today
+
+24
+00:01:13.010 --> 00:01:15.720
+and the training.
+
+25
+00:01:15.720 --> 00:01:19.650
+Accessibility to me and to, I would say,
+
+26
+00:01:19.650 --> 00:01:21.700
+most of us at Knowbility, if not all of us,
+
+27
+00:01:23.741 --> 00:01:27.757
+is that accessibility is a barrier-free experience
+
+28
+00:01:29.020 --> 00:01:34.020
+that anyone can have regardless of ability or disability.
+
+29
+00:01:36.034 --> 00:01:40.400
+So it means that our work is usable by all.
+
+30
+00:01:40.400 --> 00:01:42.330
+It is enjoyable by all.
+
+31
+00:01:42.330 --> 00:01:46.710
+It's not, accessibility isn't something extra.
+
+32
+00:01:46.710 --> 00:01:49.630
+It's something that we bake into what we do
+
+33
+00:01:50.611 --> 00:01:52.940
+to make sure that our work is inclusive
+
+34
+00:01:55.152 --> 00:01:58.423
+and does not present barriers to folks.
+
+35
+00:01:59.810 --> 00:02:03.080
+There are some key accessibility principles
+
+36
+00:02:04.571 --> 00:02:08.100
+that are very important to know
+
+37
+00:02:08.100 --> 00:02:11.300
+and if you think about these principles,
+
+38
+00:02:11.300 --> 00:02:12.963
+these 4 guiding principles,
+
+39
+00:02:13.970 --> 00:02:16.890
+in the context of any of your accessibility work
+
+40
+00:02:16.890 --> 00:02:19.040
+or any of your design and development work,
+
+41
+00:02:20.019 --> 00:02:22.640
+you will succeed greatly.
+
+42
+00:02:22.640 --> 00:02:27.640
+And these 4 accessibility principles are perceivable,
+
+43
+00:02:27.920 --> 00:02:32.920
+so everything has to be able to be seen or heard
+
+44
+00:02:33.504 --> 00:02:34.854
+or experienced in some way.
+
+45
+00:02:37.365 --> 00:02:38.923
+So that guides all of the
+
+46
+00:02:40.367 --> 00:02:44.540
+1 level accessibility guidelines
+
+47
+00:02:44.540 --> 00:02:46.500
+from the web content accessibility guidelines.
+
+48
+00:02:46.500 --> 00:02:51.133
+So when you see 1.3.1, that falls under perceivable.
+
+49
+00:02:52.690 --> 00:02:55.350
+Then the next one is operable.
+
+50
+00:02:55.350 --> 00:03:00.130
+So anything that you can operate in one method
+
+51
+00:03:00.130 --> 00:03:02.870
+must be operable in all methods.
+
+52
+00:03:02.870 --> 00:03:06.093
+So, say you can point and click at something with a mouse.
+
+53
+00:03:07.173 --> 00:03:08.720
+You can also use a keyboard
+
+54
+00:03:08.720 --> 00:03:11.050
+or an alternative input device for that
+
+55
+00:03:12.090 --> 00:03:13.983
+so you can operate the interface.
+
+56
+00:03:15.766 --> 00:03:18.223
+Anyone can do that without a barrier to that.
+
+57
+00:03:20.491 --> 00:03:23.400
+And so, all of the 2.x.x,
+
+58
+00:03:24.250 --> 00:03:27.583
+so 2.1.1 or 2.2.2,
+
+59
+00:03:28.667 --> 00:03:33.650
+those guidelines fall under the operable principle.
+
+60
+00:03:33.650 --> 00:03:36.040
+Then the next principle is understandable.
+
+61
+00:03:36.040 --> 00:03:39.440
+So, any of the content that's presented to users
+
+62
+00:03:39.440 --> 00:03:41.640
+must be understandable.
+
+63
+00:03:41.640 --> 00:03:43.130
+Pretty self-explanatory.
+
+64
+00:03:43.130 --> 00:03:47.830
+Those are the 3. WCAG guideline levels.
+
+65
+00:03:47.830 --> 00:03:51.950
+And then robust is the last principle
+
+66
+00:03:51.950 --> 00:03:56.150
+and that one makes up the 4. WCAG guidelines.
+
+67
+00:03:58.226 --> 00:04:03.226
+So that acronym for the principles is P-O-U-R, POUR.
+
+68
+00:04:04.131 --> 00:04:09.131
+They're highly valuable to me and to everyone that I know
+
+69
+00:04:09.510 --> 00:04:11.890
+working in accessibility to keep in mind
+
+70
+00:04:11.890 --> 00:04:16.802
+because I do not have the WCAG guidelines memorized.
+
+71
+00:04:16.802 --> 00:04:20.983
+I know a few of them but, if I understand these principles,
+
+72
+00:04:21.972 --> 00:04:24.590
+then I can look up guidelines and I can verify
+
+73
+00:04:26.696 --> 00:04:31.650
+and confirm accessibility issues that I feel like
+
+74
+00:04:31.650 --> 00:04:35.280
+might cause somebody trouble and then document them
+
+75
+00:04:35.280 --> 00:04:38.053
+according to what the actual guidelines are.
+
+76
+00:04:39.115 --> 00:04:41.833
+So those principles are extremely important.
+
+77
+00:04:43.530 --> 00:04:47.820
+The Web Content Accessibility Guidelines, so WCAG.
+
+78
+00:04:47.820 --> 00:04:51.040
+You'll hear me throw out terms like WCAG or
+
+79
+00:04:51.040 --> 00:04:54.283
+Web Content Accessibility Guidelines or even A11Y,
+
+80
+00:04:55.125 --> 00:04:57.303
+which is short hand for accessibility.
+
+81
+00:04:58.365 --> 00:05:02.514
+There are 11 letters in between the A and the Y
+
+82
+00:05:02.514 --> 00:05:04.283
+in the word accessibility.
+
+83
+00:05:05.120 --> 00:05:10.120
+So WCAG, just understanding, in general, what it is,
+
+84
+00:05:10.910 --> 00:05:12.860
+where to find the information for that.
+
+85
+00:05:12.860 --> 00:05:15.120
+The Web Content Accessibility Guidelines
+
+86
+00:05:16.748 --> 00:05:20.561
+is published by the W3C, so that is something
+
+87
+00:05:20.561 --> 00:05:22.923
+that is very important to know.
+
+88
+00:05:24.080 --> 00:05:27.133
+Then having general WordPress knowledge, of course,
+
+89
+00:05:28.093 --> 00:05:29.843
+since this is a WordPress training.
+
+90
+00:05:31.134 --> 00:05:33.961
+We need to understand how to,
+
+91
+00:05:33.961 --> 00:05:38.280
+how to build WordPress sites in general.
+
+92
+00:05:38.280 --> 00:05:41.830
+Even if its something like using a host
+
+93
+00:05:41.830 --> 00:05:44.640
+to do a one-click install of your WordPress site
+
+94
+00:05:44.640 --> 00:05:46.730
+and then logging in, right?
+
+95
+00:05:46.730 --> 00:05:48.530
+That is general WordPress knowledge.
+
+96
+00:05:49.970 --> 00:05:53.028
+Obviously, if you have additional WordPress knowledge,
+
+97
+00:05:53.028 --> 00:05:54.003
+that will help you greatly.
+
+98
+00:05:54.840 --> 00:05:57.280
+Familiarity and Comfort with F.E.D.
+
+99
+00:05:57.280 --> 00:06:00.523
+So Front End Design or Front End Development.
+
+100
+00:06:01.534 --> 00:06:02.670
+So Front End Design and Development
+
+101
+00:06:04.249 --> 00:06:06.370
+is a combination of technologies.
+
+102
+00:06:06.370 --> 00:06:10.470
+We frequently use F.E.D. to represent
+
+103
+00:06:10.470 --> 00:06:13.070
+HTML, CSS and JavaScript.
+
+104
+00:06:13.070 --> 00:06:17.090
+So those are the technologies that power the web
+
+105
+00:06:17.090 --> 00:06:21.830
+and that is something that is very important,
+
+106
+00:06:21.830 --> 00:06:24.330
+at least for this developer portion of the course.
+

@@ -1,0 +1,982 @@
+﻿WEBVTT
+
+1
+00:00:00.230 --> 00:00:01.930
+<v ->Any other items</v>
+
+2
+00:00:03.458 --> 00:00:04.710
+that you all know about,
+
+3
+00:00:04.710 --> 00:00:06.193
+that you wanna discuss.
+
+4
+00:00:08.561 --> 00:00:12.640
+You can look up the term accessibility in the plugins
+
+5
+00:00:12.640 --> 00:00:14.350
+directory on WordPress and get
+
+6
+00:00:15.220 --> 00:00:20.173
+hundreds of plugins, some of them are really, really good.
+
+7
+00:00:23.572 --> 00:00:26.070
+Some of them not so much but,
+
+8
+00:00:26.070 --> 00:00:27.800
+what plugins do you use
+
+9
+00:00:29.600 --> 00:00:30.953
+for accessible content?
+
+10
+00:00:33.080 --> 00:00:36.310
+So, there was Deborah, in the chat
+
+11
+00:00:37.200 --> 00:00:38.230
+posted a link
+
+12
+00:00:39.230 --> 00:00:40.110
+it's
+
+13
+00:00:40.110 --> 00:00:42.020
+five awesome
+
+14
+00:00:42.020 --> 00:00:44.390
+accessibility testing tools
+
+15
+00:00:44.390 --> 00:00:46.163
+from Claire at A Bright Clear Web.
+
+16
+00:00:47.360 --> 00:00:48.193
+So
+
+17
+00:00:52.401 --> 00:00:54.750
+they're talking about using a screen reader,
+
+18
+00:00:54.750 --> 00:00:56.090
+using a color contrast analyser,
+
+19
+00:00:56.090 --> 00:00:58.540
+I'm looking to see if there are any plugins here.
+
+20
+00:01:06.900 --> 00:01:09.040
+Looks like there are browser plugins
+
+21
+00:01:09.040 --> 00:01:11.783
+but I'm not seeing a WordPress plugin yet.
+
+22
+00:01:16.410 --> 00:01:17.600
+All right.
+
+23
+00:01:17.600 --> 00:01:20.237
+Karen asks, "Does anyone know of a good
+
+24
+00:01:20.237 --> 00:01:23.200
+"accessible plugin for charts and graphs?"
+
+25
+00:01:23.200 --> 00:01:24.610
+That's a great question.
+
+26
+00:01:24.610 --> 00:01:26.610
+I don't know
+
+27
+00:01:26.610 --> 00:01:28.430
+of any for WordPress
+
+28
+00:01:29.680 --> 00:01:32.280
+that do that accessibly.
+
+29
+00:01:32.280 --> 00:01:33.917
+With Joe Dolsons
+
+30
+00:01:35.660 --> 00:01:37.430
+WP accessibility
+
+31
+00:01:37.430 --> 00:01:38.600
+plugin
+
+32
+00:01:38.600 --> 00:01:41.510
+you can add long descriptions to images.
+
+33
+00:01:41.510 --> 00:01:43.780
+So, for complex
+
+34
+00:01:43.780 --> 00:01:44.613
+images
+
+35
+00:01:44.613 --> 00:01:45.790
+that look like charts
+
+36
+00:01:45.790 --> 00:01:47.410
+that might be a way to do that.
+
+37
+00:01:47.410 --> 00:01:49.580
+But if you have
+
+38
+00:01:49.580 --> 00:01:51.900
+an interactive chart,
+
+39
+00:01:51.900 --> 00:01:56.610
+something that, you know, maybe it's drawn via data,
+
+40
+00:01:56.610 --> 00:01:58.370
+right, coming out of WordPress
+
+41
+00:01:58.370 --> 00:02:02.180
+and then it needs to be accessible.
+
+42
+00:02:02.180 --> 00:02:03.850
+That would be something
+
+43
+00:02:05.160 --> 00:02:06.570
+that I'd need to look at,
+
+44
+00:02:06.570 --> 00:02:09.240
+to see if there's anything that's accessible out there.
+
+45
+00:02:09.240 --> 00:02:11.630
+I don't know of a plugin that will do
+
+46
+00:02:11.630 --> 00:02:13.820
+accessible charts and graphs just
+
+47
+00:02:13.820 --> 00:02:16.373
+dedicated to that for WordPress.
+
+48
+00:02:18.168 --> 00:02:19.790
+SiteImprove, yeah.
+
+49
+00:02:19.790 --> 00:02:21.567
+So Karen--
+
+50
+00:02:22.750 --> 00:02:25.190
+Different Karen, Karen with a K,
+
+51
+00:02:25.190 --> 00:02:28.500
+had asked, are there any thoughts on site improve?
+
+52
+00:02:28.500 --> 00:02:29.870
+So,
+
+53
+00:02:29.870 --> 00:02:30.703
+SiteImprove
+
+54
+00:02:31.997 --> 00:02:33.563
+is a service,
+
+55
+00:02:34.600 --> 00:02:36.920
+a software is a service
+
+56
+00:02:36.920 --> 00:02:40.170
+almost like a third party hosted
+
+57
+00:02:40.170 --> 00:02:41.710
+place to
+
+58
+00:02:41.710 --> 00:02:42.810
+run
+
+59
+00:02:42.810 --> 00:02:43.643
+checks
+
+60
+00:02:45.850 --> 00:02:47.190
+of your content
+
+61
+00:02:47.190 --> 00:02:48.870
+both for
+
+62
+00:02:48.870 --> 00:02:51.560
+SEO content quality,
+
+63
+00:02:51.560 --> 00:02:56.560
+link validation, things like that, as well as accessibility.
+
+64
+00:02:56.670 --> 00:02:57.503
+So,
+
+65
+00:02:58.691 --> 00:03:00.410
+SiteImprove
+
+66
+00:03:00.410 --> 00:03:01.320
+is very active
+
+67
+00:03:01.320 --> 00:03:02.910
+in the accessibility community
+
+68
+00:03:02.910 --> 00:03:04.960
+and they have a plugin
+
+69
+00:03:04.960 --> 00:03:07.690
+and we'll talk about that one,
+
+70
+00:03:07.690 --> 00:03:10.490
+for plugins for actually validating
+
+71
+00:03:10.490 --> 00:03:12.530
+or checking for accessibility.
+
+72
+00:03:12.530 --> 00:03:16.690
+It works with their subscription service.
+
+73
+00:03:16.690 --> 00:03:17.523
+So
+
+74
+00:03:18.370 --> 00:03:20.600
+I think that could be a valid way
+
+75
+00:03:20.600 --> 00:03:23.290
+to do checks for accessibility,
+
+76
+00:03:23.290 --> 00:03:26.513
+it isn't the only thing you should do but,
+
+77
+00:03:27.530 --> 00:03:30.660
+but definitely there's a plugin for that.
+
+78
+00:03:30.660 --> 00:03:32.140
+And we'll look at that,
+
+79
+00:03:32.140 --> 00:03:34.173
+well we'll go ahead and look at it right now.
+
+80
+00:03:35.180 --> 00:03:36.630
+While I get a drink of water.
+
+81
+00:03:45.130 --> 00:03:49.210
+So this plugin, which I haven't used,
+
+82
+00:03:49.210 --> 00:03:51.430
+I am familiar with folks at SiteImprove
+
+83
+00:03:51.430 --> 00:03:53.503
+and like them very much, good folks,
+
+84
+00:03:55.259 --> 00:03:57.123
+but I can't comment on the
+
+85
+00:04:00.400 --> 00:04:02.250
+the plugin itself, other than what they say
+
+86
+00:04:02.250 --> 00:04:05.360
+but it basically allows you to
+
+87
+00:04:08.210 --> 00:04:11.340
+check your content while your creating and editing it
+
+88
+00:04:13.910 --> 00:04:17.810
+and then possibly get reports in side WordPress
+
+89
+00:04:17.810 --> 00:04:21.460
+of any scans that SiteImprove does of your
+
+90
+00:04:21.460 --> 00:04:22.913
+content on your site.
+
+91
+00:04:25.969 --> 00:04:29.000
+So that's, I wanna see, I don't think they have any,
+
+92
+00:04:29.000 --> 00:04:32.720
+they don't have any screen shots there but
+
+93
+00:04:32.720 --> 00:04:36.210
+basically you have to have an account with SiteImprove,
+
+94
+00:04:36.210 --> 00:04:38.480
+it does like they have a free trial so,
+
+95
+00:04:38.480 --> 00:04:40.170
+it'd be worth checking that out
+
+96
+00:04:41.317 --> 00:04:42.917
+and seeing what that looks like.
+
+97
+00:04:45.880 --> 00:04:47.380
+There's another plugin as well
+
+98
+00:04:51.020 --> 00:04:52.665
+that
+
+99
+00:04:52.665 --> 00:04:54.210
+we can talk about,
+
+100
+00:04:54.210 --> 00:04:56.700
+it's called Access Monitor.
+
+101
+00:04:56.700 --> 00:04:58.550
+So Access Monitor
+
+102
+00:05:04.846 --> 00:05:05.929
+for WordPress
+
+103
+00:05:07.920 --> 00:05:09.480
+is built by Joe Dolson
+
+104
+00:05:09.480 --> 00:05:12.810
+and it hooks into a third party
+
+105
+00:05:12.810 --> 00:05:16.300
+service called Tenon, T-E-N-O-N
+
+106
+00:05:16.300 --> 00:05:17.730
+so let
+
+107
+00:05:17.730 --> 00:05:18.700
+me go to that
+
+108
+00:05:19.630 --> 00:05:21.170
+and we'll talk about that
+
+109
+00:05:21.170 --> 00:05:24.120
+because that's another one where you can check your content
+
+110
+00:05:31.120 --> 00:05:32.513
+right in WordPress,
+
+111
+00:05:33.480 --> 00:05:34.713
+for accessibility.
+
+112
+00:05:40.240 --> 00:05:42.610
+So this one,
+
+113
+00:05:42.610 --> 00:05:44.570
+it requires an API key
+
+114
+00:05:44.570 --> 00:05:46.030
+and
+
+115
+00:05:46.030 --> 00:05:47.970
+it runs
+
+116
+00:05:47.970 --> 00:05:49.780
+basically this automated scan
+
+117
+00:05:52.597 --> 00:05:53.670
+and it can
+
+118
+00:05:55.300 --> 00:05:56.310
+have you
+
+119
+00:05:57.290 --> 00:05:58.810
+basically check your content
+
+120
+00:05:58.810 --> 00:06:00.360
+before you're allowed to publish it,
+
+121
+00:06:00.360 --> 00:06:02.700
+you can have a setting inside of it so,
+
+122
+00:06:02.700 --> 00:06:04.610
+we can take a look at that when we
+
+123
+00:06:04.610 --> 00:06:08.693
+get into the testing portion and we'll test drive that.
+
+124
+00:06:11.760 --> 00:06:13.630
+So we've talked about child themes
+
+125
+00:06:17.210 --> 00:06:19.670
+and we've talked about them in relation to
+
+126
+00:06:19.670 --> 00:06:23.180
+taking an accessibility ready theme or a commercial theme
+
+127
+00:06:23.180 --> 00:06:25.010
+and developing
+
+128
+00:06:25.010 --> 00:06:26.400
+those out
+
+129
+00:06:26.400 --> 00:06:28.193
+even further and customizing them.
+
+130
+00:06:29.150 --> 00:06:31.720
+But what about custom parent themes?
+
+131
+00:06:31.720 --> 00:06:33.230
+Lets talk about those
+
+132
+00:06:33.230 --> 00:06:38.010
+so what if you wanna build your theme from scratch?
+
+133
+00:06:38.010 --> 00:06:38.883
+Lets see.
+
+134
+00:06:40.200 --> 00:06:41.813
+Lets see if I can find.
+
+135
+00:06:42.770 --> 00:06:45.080
+So the theme handbook
+
+136
+00:06:45.080 --> 00:06:47.350
+basically lays out everything
+
+137
+00:06:50.070 --> 00:06:51.030
+that you can do with a theme
+
+138
+00:06:51.030 --> 00:06:53.570
+and what are the building.blocks of a theme.
+
+139
+00:06:53.570 --> 00:06:57.110
+So I won't get into that in detail but
+
+140
+00:07:03.283 --> 00:07:05.310
+the process of building a theme can be
+
+141
+00:07:06.150 --> 00:07:07.440
+from scratch, can be
+
+142
+00:07:09.155 --> 00:07:09.988
+pretty complex
+
+143
+00:07:09.988 --> 00:07:14.270
+but this is the part of our day where we do get into
+
+144
+00:07:14.270 --> 00:07:15.973
+the complexities of it so,
+
+145
+00:07:17.130 --> 00:07:19.840
+we have a certain number of required files
+
+146
+00:07:19.840 --> 00:07:21.790
+that you need to have, you have to have
+
+147
+00:07:23.240 --> 00:07:25.660
+the index page as well as the
+
+148
+00:07:25.660 --> 00:07:27.293
+style.CSS.
+
+149
+00:07:28.450 --> 00:07:30.040
+Then
+
+150
+00:07:30.040 --> 00:07:33.600
+you have these optional template files,
+
+151
+00:07:33.600 --> 00:07:36.430
+localisation files and, of course,
+
+152
+00:07:36.430 --> 00:07:38.640
+with good theme building practices,
+
+153
+00:07:38.640 --> 00:07:40.990
+you would be separating out your graphics,
+
+154
+00:07:40.990 --> 00:07:44.590
+JavaScripts, other text files from there.
+
+155
+00:07:44.590 --> 00:07:45.423
+But
+
+156
+00:07:47.160 --> 00:07:48.230
+with themes
+
+157
+00:07:49.070 --> 00:07:51.390
+you have a number of options, right?
+
+158
+00:07:51.390 --> 00:07:55.140
+You can basically build your site from scratch
+
+159
+00:07:55.140 --> 00:07:55.973
+with a theme.
+
+160
+00:07:55.973 --> 00:07:57.600
+You can make it look any way that you want
+
+161
+00:07:57.600 --> 00:07:59.440
+and all of those themes
+
+162
+00:07:59.440 --> 00:08:01.343
+out in the theme repository,
+
+163
+00:08:02.400 --> 00:08:04.210
+people started from scratch
+
+164
+00:08:04.210 --> 00:08:06.390
+or from some sort of starter framework
+
+165
+00:08:06.390 --> 00:08:08.950
+that allowed them to build their own
+
+166
+00:08:08.950 --> 00:08:11.593
+very own custom theme to share with others.
+
+167
+00:08:14.110 --> 00:08:15.823
+So there are,
+
+168
+00:08:16.710 --> 00:08:17.910
+there are a number of things
+
+169
+00:08:17.910 --> 00:08:20.800
+that are available to you if you're doing
+
+170
+00:08:20.800 --> 00:08:22.500
+these custom parent themes.
+
+171
+00:08:22.500 --> 00:08:25.730
+So, that accessibility ready theme review
+
+172
+00:08:25.730 --> 00:08:28.263
+that we looked at before.
+
+173
+00:08:28.263 --> 00:08:32.150
+So these required items in the theme review
+
+174
+00:08:32.150 --> 00:08:34.240
+are something that, if you're developing your
+
+175
+00:08:34.240 --> 00:08:36.510
+own theme from scratch, even if you're not
+
+176
+00:08:36.510 --> 00:08:39.540
+publishing it out to the world to share,
+
+177
+00:08:39.540 --> 00:08:41.610
+if it's something that you are saying; okay, this is my
+
+178
+00:08:41.610 --> 00:08:45.240
+custom theme for myself or my client and
+
+179
+00:08:47.158 --> 00:08:49.323
+I'm not going to sell it or give it away,
+
+180
+00:08:50.180 --> 00:08:52.520
+then I still highly recommend
+
+181
+00:08:53.390 --> 00:08:55.120
+you do this
+
+182
+00:08:55.120 --> 00:08:56.500
+this accessibility ready
+
+183
+00:08:57.800 --> 00:09:00.560
+required checks for your own custom theme
+
+184
+00:09:00.560 --> 00:09:03.400
+even if you're not going to release it into the repository
+
+185
+00:09:03.400 --> 00:09:06.700
+and get that accessibility ready tag,
+
+186
+00:09:06.700 --> 00:09:08.480
+because this will make sure that you
+
+187
+00:09:08.480 --> 00:09:11.740
+have good accessible defaults built into your theme
+
+188
+00:09:11.740 --> 00:09:15.040
+where you will need minimal, if any plugins
+
+189
+00:09:15.040 --> 00:09:17.030
+to patch accessibility.
+
+190
+00:09:17.030 --> 00:09:21.410
+So going through this process is highly, highly recommended
+
+191
+00:09:23.080 --> 00:09:25.803
+for making any kind of custom parent theme.
+
+192
+00:09:27.960 --> 00:09:28.820
+And
+
+193
+00:09:30.970 --> 00:09:33.430
+lets talk about themes and editing now.
+
+194
+00:09:33.430 --> 00:09:34.620
+There was one other thing I did want
+
+195
+00:09:34.620 --> 00:09:36.167
+to talk about besides that--
+
+196
+00:09:37.670 --> 00:09:39.050
+Well that was the theme guidelines in the
+
+197
+00:09:39.050 --> 00:09:40.270
+accessibility theme review,
+
+198
+00:09:40.270 --> 00:09:41.550
+anybody have any thoughts on that?
+
+199
+00:09:41.550 --> 00:09:44.350
+Do you have a specific process that you like to use
+
+200
+00:09:46.190 --> 00:09:47.690
+with custom theme development?
+
+201
+00:09:49.650 --> 00:09:51.630
+There are just a number of different
+
+202
+00:09:51.630 --> 00:09:54.285
+starter theme frameworks.
+
+203
+00:09:54.285 --> 00:09:55.540
+There's underscores
+
+204
+00:09:57.239 --> 00:09:58.072
+from Automattic
+
+205
+00:10:00.310 --> 00:10:03.780
+that is fantastic starter framework
+
+206
+00:10:03.780 --> 00:10:04.790
+that
+
+207
+00:10:04.790 --> 00:10:08.350
+allows you to build up your theme from scratch.
+
+208
+00:10:08.350 --> 00:10:10.480
+So we'll look at that real quick
+
+209
+00:10:10.480 --> 00:10:12.840
+before I move on to this next section.
+
+210
+00:10:12.840 --> 00:10:14.300
+So
+
+211
+00:10:14.300 --> 00:10:16.020
+underscores
+
+212
+00:10:17.100 --> 00:10:18.843
+dot me I believe is,
+
+213
+00:10:20.650 --> 00:10:22.000
+yeah, okay so
+
+214
+00:10:22.000 --> 00:10:24.040
+this site has some contrast issues
+
+215
+00:10:24.040 --> 00:10:25.823
+as you can see on my screen,
+
+216
+00:10:27.852 --> 00:10:29.902
+but this is a starter theme for WordPress
+
+217
+00:10:31.500 --> 00:10:34.520
+and it basically has a whole lot that it just gives you
+
+218
+00:10:34.520 --> 00:10:37.830
+out-of-the-box then you can go and customize
+
+219
+00:10:37.830 --> 00:10:39.430
+and make your own.
+
+220
+00:10:39.430 --> 00:10:40.263
+So,
+
+221
+00:10:41.450 --> 00:10:43.320
+this underscores theme
+
+222
+00:10:43.320 --> 00:10:46.400
+is a really good starter theme
+
+223
+00:10:46.400 --> 00:10:48.120
+to then make your own parent theme,
+
+224
+00:10:48.120 --> 00:10:50.400
+make your own custom theme with it.
+
+225
+00:10:50.400 --> 00:10:51.920
+But there are a number of other ones too.
+
+226
+00:10:51.920 --> 00:10:55.740
+I think there's things called Bones,
+
+227
+00:10:55.740 --> 00:10:56.573
+there's,
+
+228
+00:10:58.100 --> 00:10:58.970
+of course,
+
+229
+00:10:58.970 --> 00:11:02.310
+you can start with frameworks like Genesis Framework
+
+230
+00:11:02.310 --> 00:11:05.190
+and then create your own custom child theme
+
+231
+00:11:05.190 --> 00:11:08.393
+that's much like a parent theme with that.
+
+232
+00:11:09.660 --> 00:11:13.110
+There are just tons and tons of resources out there
+
+233
+00:11:13.110 --> 00:11:15.910
+for having starter files with that,
+
+234
+00:11:15.910 --> 00:11:20.410
+I think foundations or foundation has WordPress starter
+
+235
+00:11:20.410 --> 00:11:24.633
+framework that you can use to build your own custom theme.
+
+236
+00:11:25.760 --> 00:11:27.010
+So
+
+237
+00:11:27.010 --> 00:11:28.900
+go out and do that but
+
+238
+00:11:28.900 --> 00:11:29.760
+when you do
+
+239
+00:11:29.760 --> 00:11:31.400
+look at the accessibility ready
+
+240
+00:11:34.573 --> 00:11:36.540
+required attributes and all of the documentation here
+
+241
+00:11:41.080 --> 00:11:43.090
+for getting your theme ready for that tag,
+
+242
+00:11:43.090 --> 00:11:44.440
+even if you don't submit it
+
+243
+00:11:45.992 --> 00:11:47.950
+to the theme review team.
+
+244
+00:11:47.950 --> 00:11:51.230
+If you go through this and make it accessibility ready,
+
+245
+00:11:51.230 --> 00:11:52.803
+your users are gonna thank you.
+

@@ -1,0 +1,33 @@
+﻿- [Instructor] So this is the demo page that Sammy from the WordPress core team had posted. So let's see what happens here. So I'm just going to use my tab.
+
+- [Computer Generated Voice] Kuorinka, Select City, pop up button, menu five items, check mark, Helsinki, Kuopio, you are currently on a menu item. To choose this menu item, press control, option, space. Press Kuopio, Kuopio, select city, pop up button. Filtering contacts was successful. You are currently on a popup button.
+
+- [Instructor] So filtering contents was successful. No where on the page does that say this in visible text, right? It is just something that was spoken. So that is an example of how that ARIA live region was populated using the WP.A11y.speak method in JavaScript to basically filter out that information. So let's see if there's another thing we can do. So let's see.
+
+- Accessibility. Select menu six, up code, money, music, closing menu, filtering categories was successful. You are currently on a pop up button. To display--
+
+- So there we go. I filtered y category and it also announced it, as well. So that was very, very interesting how that works. So with this GABnow site, they could--
+
+- Voiceover off.
+
+- [Instructor] Start using a framework to do, well this is a full page reload. But if they were doing a framework to update information, then they could use that speak method. Here, here's the accordions. Let's see if these are accessible here. 'Cause these I know they're accordions because I can look at job descriptions under each, each heading here. So let's see first if they are accessible via keyboard. Let's see. Oh, I got it to apply now. It doesn't look like, back tabbing through all these items. Yeah, all I can get to are form fields, and these items right here don't seem to be keyboard accessible at all. So that's a flag that I would throw up here. But then the other one would be just to see what happens with voiceover.
+
+- [Computer Generated Voice] Voiceover on Safari, Join Our Team, vertical line, gabnow.org. Join our team, vericle line, gabnow.org, web content. In join our team, vertical, link, zero, search. You are currently on a search.
+
+- Notice, there's no skip link here, as well. So no way to skip all of these navigation items. I just have to go through them or jump to the region, which I'll go ahead and do because I don't--
+
+- Headings Menu.
+
+- Want to go through all that.
+
+- [Computer Generated Voice] Heading level two, heading level two items, volunteer opportunities, heading level two, heading level six, two items. Down pointing black pointer. Heading level two items, internship. Heading level two items, generations against bullying, GAB, is proud to announce the following internships available. Heading level six, two items. Down pointing black pointer, accounting. You are currently on heading level six. Inside of web content. To exit this web area, press control, option, shift, up arrow.
+
+- [Instructor] So it just tells me that I'm on a heading level six, but it doesn't tell me that I can do anything with that. It does say downward pointing black arrow. On my screen, it's actually green, but that's the icon that they're using. It does have for the symbol that they're using. And so Safari and voiceover know enough about this to say, okay I think that's a downward pointing black arrow. But I'm gonna try to click this area with a control, option, space.
+
+- [Computer Generated Voice] Accounting. You are currently on a text element, inside, down pointing black pointer. You are currently on a text element, in--
+
+- [Instructor] So now it still says down point black arrow, but the arrow is pointing up. Also, that whole area expanded. So what I would be expecting for an accordion control as a screen reader user would be to know that something was collapsed and that it's clickable, and--
+
+- Karen Creps to everyone, your video seems to be lagging behind Robert's audio. While he was talking about accord, voice over off.
+
+- [Instructor] So I'm getting some of the chat come through, but what I was explaining here was that the voiceover experience, or screen reader experience, I would want that to basically announce that something was collapsed and that something was clickable to expand it. And I got neither. In fact, with the way that this has been coded, the downward pointing black arrow is now upward pointing, but it still announces as downward pointing black arrow after it expands. So while I can click on it with voiceover because I'm reading through the content, I just guessed at that. And that's because I can see the screen and I know that I can click on it with a mouse and do that, and kind of expand and collapse. So, there's a little bit of work that they would need to do here to make these accordions more accessible. But they can be, and they can look the same as they do now. Other than maybe some color contrast on their link text, that looks like it's a light green or a teal and white. Which I flag that in my mind mentally noting that's something for me to check and say okay, let's do a full check on the contrast of this.

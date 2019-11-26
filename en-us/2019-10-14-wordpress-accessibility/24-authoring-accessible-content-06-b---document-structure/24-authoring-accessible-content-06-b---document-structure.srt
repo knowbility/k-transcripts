@@ -1,0 +1,303 @@
+﻿1
+00:00:00,325 --> 00:00:01,420
+- [Instructor] So let's talk about
+
+2
+00:00:01,420 --> 00:00:04,086
+content structure, itself.
+
+3
+00:00:04,086 --> 00:00:06,500
+There's accessible document structure
+
+4
+00:00:06,500 --> 00:00:11,210
+in pages and posts that
+we like to refer to
+
+5
+00:00:11,210 --> 00:00:13,600
+and that includes a number of things.
+
+6
+00:00:13,600 --> 00:00:15,550
+So, we have our title,
+
+7
+00:00:15,550 --> 00:00:18,770
+the title of the HTML page or post.
+
+8
+00:00:18,770 --> 00:00:22,610
+So, you know, the title of one of my posts
+
+9
+00:00:22,610 --> 00:00:24,493
+was My Inaccessible Post.
+
+10
+00:00:25,570 --> 00:00:28,880
+So, that was what goes
+inside the title element
+
+11
+00:00:28,880 --> 00:00:30,870
+and within the head of the document,
+
+12
+00:00:30,870 --> 00:00:32,730
+and that is something that gets announced
+
+13
+00:00:32,730 --> 00:00:35,770
+any time that a screen reader
+
+14
+00:00:35,770 --> 00:00:38,950
+comes to the, to the site
+and loads up that page.
+
+15
+00:00:38,950 --> 00:00:41,470
+That'll be the first
+thing that gets announced,
+
+16
+00:00:41,470 --> 00:00:42,730
+is the page title.
+
+17
+00:00:42,730 --> 00:00:45,430
+So it needs to be unique and descriptive,
+
+18
+00:00:45,430 --> 00:00:47,300
+doesn't need to be too verbose,
+
+19
+00:00:47,300 --> 00:00:52,300
+but it should be unique
+for each page of the site.
+
+20
+00:00:53,880 --> 00:00:55,990
+It should be appropriate for that page.
+
+21
+00:00:55,990 --> 00:00:57,590
+Then you have headings hierarchy.
+
+22
+00:00:57,590 --> 00:00:59,910
+So, each page should have one,
+
+23
+00:00:59,910 --> 00:01:01,270
+and only one,
+
+24
+00:01:01,270 --> 00:01:03,050
+heading level one.
+
+25
+00:01:03,050 --> 00:01:06,410
+Then, after that your headings hierarchy
+
+26
+00:01:06,410 --> 00:01:09,600
+should flow with the natural outline order
+
+27
+00:01:09,600 --> 00:01:10,860
+of heading level two.
+
+28
+00:01:10,860 --> 00:01:13,790
+Then if you have another
+heading after that
+
+29
+00:01:13,790 --> 00:01:15,110
+it can be a heading level two,
+
+30
+00:01:15,110 --> 00:01:16,780
+or it can be heading level three,
+
+31
+00:01:16,780 --> 00:01:18,730
+but you wanna nest your headings levels
+
+32
+00:01:20,354 --> 00:01:22,110
+in the logical order.
+
+33
+00:01:22,110 --> 00:01:25,770
+If your heading levels
+aren't in that logical order,
+
+34
+00:01:25,770 --> 00:01:27,290
+that can cause some problems.
+
+35
+00:01:27,290 --> 00:01:28,980
+It's probably minor,
+
+36
+00:01:28,980 --> 00:01:31,120
+as long as you have a
+good heading level one
+
+37
+00:01:31,120 --> 00:01:32,390
+and there's only one of them.
+
+38
+00:01:32,390 --> 00:01:34,130
+If you have six heading level one's
+
+39
+00:01:34,130 --> 00:01:36,050
+and they're all different on the page
+
+40
+00:01:36,050 --> 00:01:38,220
+someone using a system technology
+
+41
+00:01:38,220 --> 00:01:40,080
+might misunderstand what the
+
+42
+00:01:40,080 --> 00:01:41,210
+purpose of the page is,
+
+43
+00:01:41,210 --> 00:01:44,450
+or at least have difficulties
+
+44
+00:01:44,450 --> 00:01:45,520
+ferreting that out.
+
+45
+00:01:45,520 --> 00:01:47,280
+Like is it the first heading level one?
+
+46
+00:01:47,280 --> 00:01:48,500
+Or was that something else?
+
+47
+00:01:48,500 --> 00:01:49,333
+You know?
+
+48
+00:01:49,333 --> 00:01:50,530
+What are you using the heading level ones
+
+49
+00:01:50,530 --> 00:01:52,600
+for if you have that many?
+
+50
+00:01:52,600 --> 00:01:54,390
+So, its important to think about that
+
+51
+00:01:54,390 --> 00:01:55,720
+and try as best you can
+
+52
+00:01:55,720 --> 00:01:59,470
+to keep a logical heading hierarchy
+
+53
+00:01:59,470 --> 00:02:00,843
+that doesn't skip levels.
+
+54
+00:02:03,350 --> 00:02:04,270
+Then we have lists.
+
+55
+00:02:04,270 --> 00:02:06,230
+So, using lists appropriately.
+
+56
+00:02:06,230 --> 00:02:09,030
+Ordered lists, unordered lists,
+
+57
+00:02:09,030 --> 00:02:11,090
+as well as definition lists.
+
+58
+00:02:11,090 --> 00:02:13,700
+Making sure those are used where they are
+
+59
+00:02:13,700 --> 00:02:15,460
+most appropriate.
+
+60
+00:02:15,460 --> 00:02:17,973
+And using semantic content for that.
+
+61
+00:02:19,740 --> 00:02:21,210
+And then tables as well.
+
+62
+00:02:21,210 --> 00:02:23,810
+So, for tabular data, there are ways
+
+63
+00:02:23,810 --> 00:02:28,810
+you can mark that up
+using divs, and spans,
+
+64
+00:02:29,388 --> 00:02:32,030
+and most of us have gotten away from
+
+65
+00:02:32,030 --> 00:02:33,750
+table based layouts.
+
+66
+00:02:33,750 --> 00:02:34,900
+Using tables for layout.
+
+67
+00:02:34,900 --> 00:02:37,660
+But, there is a use case for having
+
+68
+00:02:37,660 --> 00:02:39,740
+data tables on a page,
+
+69
+00:02:39,740 --> 00:02:44,520
+and understanding how
+to put those in place
+
+70
+00:02:44,520 --> 00:02:48,730
+is incredibly important
+for content authors.
+
+71
+00:02:48,730 --> 00:02:51,400
+So, doing that, and doing that
+
+72
+00:02:51,400 --> 00:02:53,300
+in an accessible way isn't that hard,
+
+73
+00:02:53,300 --> 00:02:55,250
+but it just takes a little forethought.
+

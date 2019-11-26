@@ -1,0 +1,230 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.230
+<v ->We have businesses</v>
+
+2
+00:00:02.230 --> 00:00:07.230
+that have really tapped into the market of WordPress.
+
+3
+00:00:10.030 --> 00:00:15.030
+And have offered highly customized experiences and designs,
+
+4
+00:00:20.080 --> 00:00:22.470
+and very interactive sites
+
+5
+00:00:22.470 --> 00:00:24.193
+that you can build with WordPress.
+
+6
+00:00:25.568 --> 00:00:30.540
+This commercial theme marketplace is enormous.
+
+7
+00:00:30.540 --> 00:00:32.910
+I don't even know how many millions
+
+8
+00:00:32.910 --> 00:00:35.690
+if not billions of dollars it generates a year.
+
+9
+00:00:35.690 --> 00:00:39.580
+But there are some things that we need to think about.
+
+10
+00:00:39.580 --> 00:00:40.850
+So,
+
+11
+00:00:40.850 --> 00:00:42.710
+with any commercial theme,
+
+12
+00:00:42.710 --> 00:00:46.700
+there are no formal accessibility review processes.
+
+13
+00:00:46.700 --> 00:00:50.920
+There's no accessibility ready tag that is endorsed
+
+14
+00:00:50.920 --> 00:00:55.920
+by the wordpress.org theme developer community.
+
+15
+00:00:57.000 --> 00:00:59.980
+So you have to beware of that.
+
+16
+00:00:59.980 --> 00:01:04.795
+You can very good commercial themes out there,
+
+17
+00:01:04.795 --> 00:01:08.970
+but it is a bit of buyer beware.
+
+18
+00:01:08.970 --> 00:01:11.160
+They might say that things are accessible,
+
+19
+00:01:11.160 --> 00:01:14.930
+but you have to verify those claims.
+
+20
+00:01:14.930 --> 00:01:19.930
+And it's worth really doing some research around that.
+
+21
+00:01:22.540 --> 00:01:24.590
+And you always have
+
+22
+00:01:24.590 --> 00:01:28.430
+this good alternative possibility with commercial themes,
+
+23
+00:01:28.430 --> 00:01:31.460
+and that is you create child themes on top of that.
+
+24
+00:01:31.460 --> 00:01:35.470
+And a lot of the theme houses out there,
+
+25
+00:01:35.470 --> 00:01:39.125
+the commercial theme shops,
+
+26
+00:01:39.125 --> 00:01:44.125
+like StudioPress that makes Genesis theme framework,
+
+27
+00:01:46.325 --> 00:01:48.923
+or elegant themes that make Divvy and other ones.
+
+28
+00:01:50.260 --> 00:01:55.260
+Catch themes based out of Nepal of all places.
+
+29
+00:01:55.340 --> 00:01:59.498
+They make great commercial themes,
+
+30
+00:01:59.498 --> 00:02:04.400
+and they provide child themes,
+
+31
+00:02:04.400 --> 00:02:06.240
+or they're child theme ready.
+
+32
+00:02:06.240 --> 00:02:07.451
+So,
+
+33
+00:02:07.451 --> 00:02:09.990
+you can do that with any child theme.
+
+34
+00:02:09.990 --> 00:02:14.250
+But a lot of the bigger outfits give you guides about
+
+35
+00:02:14.250 --> 00:02:17.290
+here's how you create a good customizable child theme
+
+36
+00:02:17.290 --> 00:02:19.543
+for our theme framework.
+
+37
+00:02:19.543 --> 00:02:22.570
+And so,
+
+38
+00:02:22.570 --> 00:02:24.610
+those will allow you to
+
+39
+00:02:24.610 --> 00:02:26.800
+take what's good about those commercial themes
+
+40
+00:02:26.800 --> 00:02:27.633
+that you like,
+
+41
+00:02:27.633 --> 00:02:29.650
+and you purchased it for,
+
+42
+00:02:29.650 --> 00:02:31.900
+but then level off the accessibility,
+
+43
+00:02:31.900 --> 00:02:33.480
+where it might be needed.
+
+44
+00:02:33.480 --> 00:02:37.670
+So that's something that I will always recommend
+
+45
+00:02:37.670 --> 00:02:39.960
+with anyone that's purchasing a commercial theme,
+
+46
+00:02:39.960 --> 00:02:44.960
+is to look at how to make it more accessible than it is.
+
+47
+00:02:46.510 --> 00:02:50.250
+And many of the commercial themes just don't have
+
+48
+00:02:51.470 --> 00:02:54.130
+even a thought about accessibility into them.
+
+49
+00:02:54.130 --> 00:02:55.300
+If they've inherited
+
+50
+00:02:55.300 --> 00:02:57.753
+some accessibility from the WordPress defaults,
+
+51
+00:02:59.330 --> 00:03:01.930
+you're doing really well.
+
+52
+00:03:01.930 --> 00:03:06.570
+But a lot of times the overrides that come with some of the
+
+53
+00:03:06.570 --> 00:03:08.240
+theme frameworks,
+
+54
+00:03:08.240 --> 00:03:09.500
+and commercial themes,
+
+55
+00:03:09.500 --> 00:03:10.680
+just wipe everything out.
+
+56
+00:03:10.680 --> 00:03:13.510
+So everything has to be put back in from scratch
+
+57
+00:03:13.510 --> 00:03:14.993
+in terms of accessibility.
+

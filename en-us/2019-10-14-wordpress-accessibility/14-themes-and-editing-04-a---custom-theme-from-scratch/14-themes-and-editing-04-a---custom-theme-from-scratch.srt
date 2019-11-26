@@ -1,0 +1,264 @@
+﻿1
+00:00:01,000 --> 00:00:02,830
+- [Instructor] So let's talk about themes,
+
+2
+00:00:02,830 --> 00:00:05,423
+if you're building a custom theme,
+
+3
+00:00:07,050 --> 00:00:09,540
+the editing experience with that.
+
+4
+00:00:09,540 --> 00:00:12,853
+We'll talk about Gutenberg
+versus the Classic Editor.
+
+5
+00:00:13,840 --> 00:00:16,400
+Many of you are aware,
+
+6
+00:00:16,400 --> 00:00:19,360
+and I talked a little bit
+about the Gutenberg Editor
+
+7
+00:00:19,360 --> 00:00:22,010
+that there are accessibility
+issues with that.
+
+8
+00:00:22,010 --> 00:00:26,040
+You can create accessibility,
+accessible content
+
+9
+00:00:26,040 --> 00:00:30,100
+with Gutenberg, but if you
+have accessibility needs,
+
+10
+00:00:30,100 --> 00:00:32,890
+and you're using the editing interface,
+
+11
+00:00:32,890 --> 00:00:36,380
+you might not be able to use
+the Gutenberg Editor fully,
+
+12
+00:00:36,380 --> 00:00:38,920
+because of the barriers
+that were introduced
+
+13
+00:00:38,920 --> 00:00:41,410
+in its design and development.
+
+14
+00:00:41,410 --> 00:00:44,980
+So the Classic Editor is an option.
+
+15
+00:00:44,980 --> 00:00:46,500
+And the WordPress Classic Editor,
+
+16
+00:00:46,500 --> 00:00:48,730
+when you install WordPress,
+
+17
+00:00:48,730 --> 00:00:51,400
+you can go to the plugin repository.
+
+18
+00:00:51,400 --> 00:00:53,970
+You can add a plugin
+for the Classic Editor.
+
+19
+00:00:53,970 --> 00:00:56,290
+Sometimes WordPress will prompt you,
+
+20
+00:00:56,290 --> 00:00:58,470
+whether or not you would
+like to install and use
+
+21
+00:00:58,470 --> 00:00:59,510
+the Classic Editor,
+
+22
+00:00:59,510 --> 00:01:01,600
+and you can force that
+on all of your users.
+
+23
+00:01:01,600 --> 00:01:02,433
+You can just say,
+
+24
+00:01:02,433 --> 00:01:04,140
+everyone's going to
+use the Classic Editor.
+
+25
+00:01:04,140 --> 00:01:06,390
+We're not going to use
+Gutenberg right now.
+
+26
+00:01:06,390 --> 00:01:08,710
+And that's perfectly valid.
+
+27
+00:01:08,710 --> 00:01:11,460
+The Classic Editor has
+
+28
+00:01:11,460 --> 00:01:16,350
+has years of development behind it
+
+29
+00:01:16,350 --> 00:01:18,610
+which have seen
+
+30
+00:01:18,610 --> 00:01:20,880
+a number of accessibility
+improvements in it,
+
+31
+00:01:20,880 --> 00:01:24,580
+so you can rest assured that the majority,
+
+32
+00:01:24,580 --> 00:01:28,420
+if not all of that editor experience is
+
+33
+00:01:28,420 --> 00:01:32,590
+is accessible and functional
+for people with disabilities.
+
+34
+00:01:32,590 --> 00:01:33,423
+So
+
+35
+00:01:35,130 --> 00:01:36,980
+with either of those editors, though,
+
+36
+00:01:36,980 --> 00:01:40,593
+you can create inaccessible
+or accessible content.
+
+37
+00:01:42,070 --> 00:01:43,190
+And plugins.
+
+38
+00:01:43,190 --> 00:01:45,419
+We've talked about some of the plugins
+
+39
+00:01:45,419 --> 00:01:47,989
+out there to help with accessibility.
+
+40
+00:01:47,989 --> 00:01:52,460
+Just know that whatever
+theme that you create,
+
+41
+00:01:52,460 --> 00:01:54,980
+having those accessible defaults are great
+
+42
+00:01:54,980 --> 00:01:59,980
+and having accessibility-ready
+required functionality
+
+43
+00:02:00,770 --> 00:02:05,080
+and features baked into your
+custom theme is fantastic,
+
+44
+00:02:05,080 --> 00:02:10,080
+but a plugin will destroy
+that in a hot second
+
+45
+00:02:11,230 --> 00:02:16,230
+if it is outputting code
+that is not accessible.
+
+46
+00:02:18,600 --> 00:02:22,089
+Your theme may be able
+to take and reformat
+
+47
+00:02:22,089 --> 00:02:23,750
+that plugin's output, though.
+
+48
+00:02:23,750 --> 00:02:27,400
+So it's something that
+you definitely want to
+
+49
+00:02:28,270 --> 00:02:29,780
+you want to keep in mind and
+
+50
+00:02:30,890 --> 00:02:33,340
+be aware of, that just because you have
+
+51
+00:02:33,340 --> 00:02:35,410
+an accessibility-ready
+theme that you've created,
+
+52
+00:02:35,410 --> 00:02:37,790
+and that's fantastic,
+it's passed every check,
+
+53
+00:02:37,790 --> 00:02:42,030
+and your colleague,
+who uses a screenreader
+
+54
+00:02:42,030 --> 00:02:44,430
+has verified it works great, and
+
+55
+00:02:44,430 --> 00:02:48,030
+your other colleague who has
+low vision says it works fine,
+
+56
+00:02:48,030 --> 00:02:51,510
+and your other friend
+who uses a keyboard only
+
+57
+00:02:51,510 --> 00:02:52,690
+have no problems.
+
+58
+00:02:52,690 --> 00:02:56,150
+If you start introducing plugins
+that do different things,
+
+59
+00:02:56,150 --> 00:02:58,553
+that might change.
+

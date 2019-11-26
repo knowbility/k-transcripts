@@ -1,0 +1,91 @@
+﻿- Now one thing I'd like to do is take a look at how Screen Reader would work with sites and with WordPress sites in particular. We can look at some that are pretty basic, and some that are more advanced and see what we find with those, what looks good, what sounds good, and what doesn't operate quite as what we would expect. So I'll fire up Safari with with, with VoiceOver now, and we'll go to one of the WordPress.org showcase sites. So first I have Safari open, and we're on WordPress.com, I'm gonna go to WordPress.org so let me do that. Because WordPress.com is a completely different thing, it does use WordPress technology, and it's brought to you by the makers of WordPress, the company automatic that it is a premium hosting service and theme service where you pay money for that. You can have a free website from there, but it's a different animal than what we're talking about today. So I'll go to the showcase site and we're gonna pull up one, let's see, these are all very good sites. So we have the Obama Foundation, we have Angry Birds, Vogue India, let's see, this is Finland, these are all in the carousel, Canada.com. I'm gonna pull up something else, I'm gonna pull up GABNOW This is not a social media network thankfully, this is a showcase site for bully prevention, standing up to bullies. So very important organization here, they've chosen WordPress as their platform and they, they are a featured site, it's a very attractive looking site, from an aesthetic point of view, but let's just fire open VoiceOver now, and I should be sharing my system audio, let me know if you all can't hear it.
+
+- [VoiceOver] VoiceOver on Safari, GABNOW.org|Generations Against Bullying, window, GABNOW.org|Generations Against Bullying, web content has keyboard focus. You are currently on web content.
+
+- [Instructor] So hopefully everyone heard that.
+
+- Knowbility admin to everyone. I can hear the voiceover.
+
+- Hey, all right, that's great. Okay. So the chat window is also getting, getting some voiceover action, so I'm going to close the chat window for now and I'll reopen it after VoiceOver's off.
+
+- Sofia Connell to everyone: "Voiceover works."
+
+- All right, so VoiceOver works now. So I'm, I'm on the site and VoiceOver is giving me an instruction to enter the web area. I can press Control + Option + Shift + Down Arrow. So that's normal for loading up a website an then getting to the content. So I'm going to do that now.
+
+- In GABNOW.ORG, vertical line, Generations Against Bullying, web content, link, GAB gear shop.
+
+- So that just said "link Gab gear shop." So that's where I am. I'll go to the next item.
+
+- Link, zero items. You are currently on a link, inside of web content. To click this link, press Control + Option + Space. To exit -
+
+- So that's a "Link zero items", but it also has an icon with a shopping cart on there. And if you notice, VoiceOver didn't know what to do with that. And that was where, there, they don't have alternative texts for that icon, so I don't really know what that link zero items means if I can see that on the screen, because VoiceOver just said "Link zero items". So that is an accessibility problem, right? It's there for some people, but not for other people. So I'll just keep going through this.
+
+- Search. You are currently on a search. Search for:, edit text blank. Search, search button. You are currently on a button.
+
+- Search button and search field, so that's great. I'll just keep going through here.
+
+- End of search. Banner. You are currently on a banner inside Link, image, GABNOW.ORG. You are currently on a link.
+
+- So that's, that's an image, and that's a link and it says Gabnow.org. So that is what I assume is the Alt text is of that image. It could be maybe a little bit better. It could explain that it's generations against bullying which is what the text is in the image, but that would be maybe a little bit of nit-picking at this point, because we know we're on the Gabnow.org site, and the title was announced when I first came to the page. So, we'll just keep going through this nav and see what happens.
+
+- Navigation Current page, link, navigation. You are currently -
+
+- So this is telling us that it's on a navigation, which is fantastic, that's using the nav element around that or giving it an aria landmark of nav for this list of navigation items. So that's, that's good.
+
+- Current page, link, home. Link, about three. You are currently on a link. To click this link, press Control + Option + Space. Current page, link, link, about three. You are -
+
+- So, so that's interesting. It says "about three". I don't see a three in there anywhere, but that may be because of the icon? I'm not exactly sure. You notice that this is something that should expand or collapse, and I'm not sure if I click that link if it's going to take me to the About page, or if that's going to open the, the menu. Another thing that's not being announced for me is that this is in a closed or collapsed state, and when it is expanded I would expect that it would say that it's expanded as well, when it's in a screen reader. So just just in this very first cursory thing, I'm finding cursory review, I'm finding a few issues that I would want to change right away with this site. So I'm going to click this link and just see what happens. So I'm going to go Control + Option + Space.
+
+- Press link, about three. Current page, visited link, about three. You are currently on a link. To click this link, press Control + Option + Space.
+
+- So this moved me to a new page. But my focus stayed on the About link.
+
+- Zoom.us, system dialog, mute button. You are currently on a button. Safari, about, vertical line GABNOW.ORG, window about. So, so my focus stayed up here. So it seems like they are using some, some sort of java script framework to power the site. I haven't looked under the hood here, but I'm just thinking, this is acting like a single page application,
+
+- https://gabnow https://gabnow.org/about/, unselected insertion at end
+
+- So it changed to About, but it didn't really notify me that this is the About GABNOW page. It just said current link about. So I could get to that if I was confused by maybe finding out where is the header for this, right? So let's, let's look for that.
+
+- Landmarks menu No items in, Web Spots menu Form Controls menu Headings menu
+
+- So there are some headings
+
+- About vertical line GABNOW.ORG, web content You are currently, headings menu
+
+- Try to pull this over to the screen. So, here
+
+- About vertical line GABNOW.ORG, web content You are currently on web, headings menu
+
+- There we go. Here's our heading. So I can find out that there are some headings here
+
+- Form controls menu
+
+- There are some form
+
+- No items in web Landmarks menu. Search. Banner. Navigation. Search.
+
+- So there's two searches. I don't know if they're searching the same thing, or different things, or maybe one is in a mobile menu. Not exactly sure.
+
+- No items in articles menu. Links menu. Headings menu. Links menu.
+
+- A bunch of links. And
+
+- Headings menu.
+
+- The headings
+
+- Headings level two two items about us.
+
+- And I would look for a heading level one which doesn't exist here, but the heading level two is here so that's something I can maybe deduct what page I'm on. So that's
+
+- Heading level two two items link, about. You are currently on a link inside of web content. To click this link, press Control + Option + Space. To exit this web area, press Control + Option.
+
+- So that's just link About. So that is something that's going to tell me about GAB maybe, but I don't know that that does, so I will just follow that link and see what happens.
+
+- Press link, about, heading level five Generations Against Bullying. You are currently on a Generations Against Bullying provides a proven, comprehensive anti-bullying solution for schools.
+
+- So that was pretty nice. That did scroll me down the page and it actually put the focus down here to Generations Against Bullying this -
+
+- Heading level five Generations Against Bullying
+
+- Now the heading level seems to be all wrong. They seem to be doing this for a visual effect, instead of for the document structure. But, but they shifted focus to this, which is good. So, so anyway, that's how a screen reader user would interact with a site like this. Clearly there are some problems, but there are some good things as well. I don't want to beat up on this organization because they are doing, I'm sure very very important and good work. And, and, But it just goes to show that even WordPress showcase sites can have accessibility issues and there's always room for improvement. One thing I want to do is also talk about the WordPress Speaks, the WordPress Speak.

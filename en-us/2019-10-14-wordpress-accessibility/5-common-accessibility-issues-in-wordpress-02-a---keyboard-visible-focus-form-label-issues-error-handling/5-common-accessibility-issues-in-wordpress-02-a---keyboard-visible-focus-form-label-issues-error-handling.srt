@@ -1,0 +1,768 @@
+﻿1
+00:00:00,870 --> 00:00:01,810
+- [Instructor] So let's talk about
+
+2
+00:00:01,810 --> 00:00:04,003
+some common WordPress
+accessibility issues.
+
+3
+00:00:05,350 --> 00:00:09,180
+If you're not new to accessibility,
+
+4
+00:00:09,180 --> 00:00:11,490
+then these are not going to be surprises.
+
+5
+00:00:11,490 --> 00:00:12,983
+There are no surprises here.
+
+6
+00:00:15,120 --> 00:00:20,120
+WordPress accessibility issues
+are very much the same issues
+
+7
+00:00:20,180 --> 00:00:24,030
+that we see across all sites regardless
+
+8
+00:00:24,030 --> 00:00:25,750
+of content management system.
+
+9
+00:00:25,750 --> 00:00:28,569
+So we could just as easily say,
+
+10
+00:00:28,569 --> 00:00:32,970
+these are common
+accessibility issues on sites.
+
+11
+00:00:32,970 --> 00:00:36,850
+But WordPress accessibility
+issues that exist
+
+12
+00:00:36,850 --> 00:00:41,690
+that we see common are
+lack of keyboard support.
+
+13
+00:00:41,690 --> 00:00:43,720
+So you saw the default install, right?
+
+14
+00:00:43,720 --> 00:00:45,540
+And you saw me tapping through it
+
+15
+00:00:45,540 --> 00:00:49,913
+and it had good keyboard
+support just right there.
+
+16
+00:00:51,890 --> 00:00:56,130
+We break keyboard support in WordPress,
+
+17
+00:00:56,130 --> 00:00:59,460
+when we make modifications to the default.
+
+18
+00:00:59,460 --> 00:01:02,720
+So we may install a theme
+from someone we don't know.
+
+19
+00:01:02,720 --> 00:01:04,173
+But it looks pretty, right?
+
+20
+00:01:04,173 --> 00:01:07,880
+And it may have the
+layout and functionality
+
+21
+00:01:07,880 --> 00:01:12,423
+that we feel is right for our
+content and our audiences.
+
+22
+00:01:13,530 --> 00:01:18,530
+So we do that, we put
+those themes or plugins
+
+23
+00:01:19,340 --> 00:01:22,860
+in place in WordPress because they perform
+
+24
+00:01:22,860 --> 00:01:25,513
+a specific function that
+we feel like we need.
+
+25
+00:01:26,360 --> 00:01:31,151
+But then WordPress
+accessibility gets broken.
+
+26
+00:01:31,151 --> 00:01:33,500
+And so one of those things
+
+27
+00:01:33,500 --> 00:01:35,700
+that lack of keyboard
+support is very very common
+
+28
+00:01:35,700 --> 00:01:38,720
+where we won't see visible focus outlines
+
+29
+00:01:38,720 --> 00:01:40,610
+or we'll see things like
+
+30
+00:01:40,610 --> 00:01:45,610
+spans or divs used in
+place of buttons or links,
+
+31
+00:01:46,160 --> 00:01:48,634
+and I can show you sites
+
+32
+00:01:48,634 --> 00:01:53,634
+and we'll pull examples from
+the wordpress.org showcase.
+
+33
+00:01:53,820 --> 00:01:56,566
+So the showcase of some of
+the best sites on the internet
+
+34
+00:01:56,566 --> 00:02:01,070
+that WordPress is proud of to promote,
+
+35
+00:02:01,070 --> 00:02:03,630
+they still have some of these
+common accessibility issues.
+
+36
+00:02:03,630 --> 00:02:06,370
+Some are fantastic and very accessible.
+
+37
+00:02:06,370 --> 00:02:08,024
+But some are shining examples
+
+38
+00:02:08,024 --> 00:02:11,400
+of how you can break accessibility
+
+39
+00:02:11,400 --> 00:02:14,373
+by modifying the defaults.
+
+40
+00:02:15,520 --> 00:02:19,030
+So lack of keyboard support,
+one of the big ones.
+
+41
+00:02:19,030 --> 00:02:20,870
+So that includes menus.
+
+42
+00:02:20,870 --> 00:02:22,560
+So when you're going through a menu right,
+
+43
+00:02:22,560 --> 00:02:24,524
+like the main navigation menu
+
+44
+00:02:24,524 --> 00:02:28,360
+and you are wanting to
+
+45
+00:02:28,360 --> 00:02:31,490
+expand a sub menu,
+
+46
+00:02:31,490 --> 00:02:34,900
+sometimes those are not made
+in a keyboard friendly way.
+
+47
+00:02:34,900 --> 00:02:36,670
+The mobile menus, for instance,
+
+48
+00:02:36,670 --> 00:02:39,720
+sometimes those are just
+clickable elements with a mouse
+
+49
+00:02:39,720 --> 00:02:43,300
+and don't respond to a keyboard event.
+
+50
+00:02:43,300 --> 00:02:45,790
+Links and buttons, I talked
+a little bit about those.
+
+51
+00:02:45,790 --> 00:02:47,490
+But if you code those incorrectly
+
+52
+00:02:47,490 --> 00:02:49,320
+and you bake those into your theme,
+
+53
+00:02:49,320 --> 00:02:51,850
+then all of your links
+and buttons won't work
+
+54
+00:02:51,850 --> 00:02:53,250
+for someone with a keyboard.
+
+55
+00:02:54,380 --> 00:02:58,060
+Accordion controls, so those
+typically rely on a button
+
+56
+00:02:58,060 --> 00:03:00,661
+or some other piece of
+code that is focusable.
+
+57
+00:03:00,661 --> 00:03:05,150
+So focusable means when you tab to it
+
+58
+00:03:05,150 --> 00:03:08,620
+or when you get to that element
+that it takes keyboard focus
+
+59
+00:03:08,620 --> 00:03:09,960
+and you can do something with it.
+
+60
+00:03:09,960 --> 00:03:11,660
+You can interact with that element.
+
+61
+00:03:11,660 --> 00:03:16,000
+Well accordions are those
+expand and contract modules.
+
+62
+00:03:16,000 --> 00:03:17,930
+We see those on frequently asked questions
+
+63
+00:03:17,930 --> 00:03:20,900
+a lot of the time, that
+they can be on any kind of
+
+64
+00:03:22,080 --> 00:03:25,440
+content where you hide
+the content initially
+
+65
+00:03:25,440 --> 00:03:28,600
+but then reveal it upon
+interaction, right.
+
+66
+00:03:28,600 --> 00:03:33,170
+So accordions are something
+that we see quite often
+
+67
+00:03:33,170 --> 00:03:36,940
+don't have good keyboard
+support and carousels.
+
+68
+00:03:36,940 --> 00:03:41,940
+I have an emoji of a cat
+doing the famous scream pose.
+
+69
+00:03:42,540 --> 00:03:47,540
+Where with cat's paws are
+on each side of its face.
+
+70
+00:03:48,870 --> 00:03:50,683
+If you must use a carousel,
+
+71
+00:03:51,930 --> 00:03:53,820
+you must think about
+accessibility with them
+
+72
+00:03:53,820 --> 00:03:56,450
+and we see keyboard support
+
+73
+00:03:56,450 --> 00:04:00,940
+lacking in carousels almost all the time.
+
+74
+00:04:00,940 --> 00:04:05,043
+You can make carousels
+accessible for a keyboard.
+
+75
+00:04:07,390 --> 00:04:09,550
+So I talked a little bit
+about no visible focus,
+
+76
+00:04:09,550 --> 00:04:13,530
+that's something that is a
+designed decision that gets made.
+
+77
+00:04:13,530 --> 00:04:15,360
+Sometimes people don't even realize
+
+78
+00:04:15,360 --> 00:04:17,160
+they're making that design decision,
+
+79
+00:04:18,080 --> 00:04:21,920
+because the theme developer
+made that for them.
+
+80
+00:04:21,920 --> 00:04:23,390
+And they are just installing the theme.
+
+81
+00:04:23,390 --> 00:04:26,660
+And they don't even realize that
+
+82
+00:04:26,660 --> 00:04:29,160
+visible focus styles have been removed.
+
+83
+00:04:29,160 --> 00:04:30,370
+Form label issues.
+
+84
+00:04:30,370 --> 00:04:35,060
+So we see these a lot where
+you have a form builder
+
+85
+00:04:35,060 --> 00:04:38,720
+and the form builder
+allows you to drag and drop
+
+86
+00:04:38,720 --> 00:04:39,640
+and create a form
+
+87
+00:04:39,640 --> 00:04:44,640
+and then maybe the theme
+
+88
+00:04:45,150 --> 00:04:46,890
+support certain types of forms
+
+89
+00:04:46,890 --> 00:04:48,401
+and they have their own styling for those
+
+90
+00:04:48,401 --> 00:04:52,100
+and that styling then
+removes the labels somehow
+
+91
+00:04:52,100 --> 00:04:56,260
+or just doesn't use labels whatsoever.
+
+92
+00:04:56,260 --> 00:05:00,773
+So we see that quite a
+bit in WordPress sites.
+
+93
+00:05:02,470 --> 00:05:05,940
+So we'll talk about how
+to spot those as well.
+
+94
+00:05:05,940 --> 00:05:07,630
+Form validation and error handling.
+
+95
+00:05:07,630 --> 00:05:12,340
+So who here has ever tried to
+
+96
+00:05:13,690 --> 00:05:15,160
+fill out a form online
+
+97
+00:05:15,160 --> 00:05:17,110
+and made a mistake.
+
+98
+00:05:17,110 --> 00:05:19,160
+I know both my hands are up
+
+99
+00:05:19,160 --> 00:05:21,850
+and they're waving frantically right now,
+
+100
+00:05:21,850 --> 00:05:23,680
+because I do that all the time.
+
+101
+00:05:23,680 --> 00:05:25,960
+I wish that I was perfect
+at filling out forms,
+
+102
+00:05:25,960 --> 00:05:28,340
+but I constantly mess those up.
+
+103
+00:05:28,340 --> 00:05:31,423
+And for folks with disabilities,
+
+104
+00:05:31,423 --> 00:05:33,640
+form validation and error handling,
+
+105
+00:05:33,640 --> 00:05:36,493
+if it's done in an inaccessible way.
+
+106
+00:05:37,370 --> 00:05:39,610
+If it's presented inaccessibly,
+
+107
+00:05:39,610 --> 00:05:42,530
+that can create a very
+confusing off-putting
+
+108
+00:05:42,530 --> 00:05:47,280
+and just barrier-laden experience
+
+109
+00:05:47,280 --> 00:05:48,510
+where you might just walk away
+
+110
+00:05:48,510 --> 00:05:50,610
+and not complete the
+transaction, whatever it is.
+
+111
+00:05:50,610 --> 00:05:53,490
+Filling out a contact
+form or making a purchase.
+
+112
+00:05:53,490 --> 00:05:58,150
+So having good form
+validation and error handling
+
+113
+00:05:58,150 --> 00:05:59,980
+and making sure that it's accessible
+
+114
+00:05:59,980 --> 00:06:04,323
+is something that we see a real need for.
+
+115
+00:06:06,400 --> 00:06:10,277
+Jesse asked another question,
+
+116
+00:06:10,277 --> 00:06:13,510
+"Are on-hover triggers
+dangerous for accessibility?"
+
+117
+00:06:13,510 --> 00:06:14,840
+They can be.
+
+118
+00:06:14,840 --> 00:06:19,270
+So if you hover over something
+
+119
+00:06:19,270 --> 00:06:21,340
+and it triggers something else to open up,
+
+120
+00:06:21,340 --> 00:06:23,831
+that might be an unexpected
+change in context.
+
+121
+00:06:23,831 --> 00:06:28,470
+But what happens if you
+focus on that element?
+
+122
+00:06:28,470 --> 00:06:32,690
+Should it behave the exact same
+way as you hovering over it?
+
+123
+00:06:32,690 --> 00:06:34,240
+My sense is yes.
+
+124
+00:06:34,240 --> 00:06:36,323
+And what we see with those things,
+
+125
+00:06:36,323 --> 00:06:38,283
+when something is revealed,
+
+126
+00:06:38,283 --> 00:06:40,890
+like in a menu, if you hover over them,
+
+127
+00:06:40,890 --> 00:06:43,680
+then the top level menu item,
+
+128
+00:06:43,680 --> 00:06:47,260
+but it has child menu items
+under it, sub menu items,
+
+129
+00:06:47,260 --> 00:06:50,220
+then those typically get forgotten about
+
+130
+00:06:50,220 --> 00:06:53,720
+in terms of what happens
+with the keyboard only user
+
+131
+00:06:53,720 --> 00:06:55,790
+that's not hovering over with a mouse.
+
+132
+00:06:55,790 --> 00:06:57,990
+So those can be those can be
+
+133
+00:06:57,990 --> 00:06:59,950
+very problematic for accessibility.
+
+134
+00:06:59,950 --> 00:07:01,738
+They can be made accessible.
+
+135
+00:07:01,738 --> 00:07:04,640
+And there are a number of other concerns
+
+136
+00:07:04,640 --> 00:07:06,980
+around accessibility besides
+just keyboard support
+
+137
+00:07:06,980 --> 00:07:09,730
+for on-hover interactions,
+
+138
+00:07:09,730 --> 00:07:12,200
+like if somebody zoomed in,
+
+139
+00:07:12,200 --> 00:07:13,780
+and if somebody zoomed in,
+
+140
+00:07:13,780 --> 00:07:16,767
+are they going to miss
+out on what gets revealed
+
+141
+00:07:16,767 --> 00:07:18,600
+if they're hovering over something,
+
+142
+00:07:18,600 --> 00:07:19,860
+and then something is revealed
+
+143
+00:07:19,860 --> 00:07:21,810
+in a different location on the page.
+
+144
+00:07:21,810 --> 00:07:24,083
+So, that's a real issue there.
+
+145
+00:07:25,120 --> 00:07:28,370
+And I see some discussion about plugins,
+
+146
+00:07:28,370 --> 00:07:32,150
+to make other plugins more accessible,
+
+147
+00:07:32,150 --> 00:07:33,550
+and we'll certainly talk about those
+
+148
+00:07:33,550 --> 00:07:36,799
+and those are great suggestions
+
+149
+00:07:36,799 --> 00:07:41,799
+from Deborah and Sumner.
+
+150
+00:07:42,640 --> 00:07:44,813
+Hi, Sumner. Hi, Deborah.
+
+151
+00:07:45,860 --> 00:07:50,237
+And Karen had a question as well.
+
+152
+00:07:50,237 --> 00:07:55,210
+"Will using a premium form
+plugin like Gravity Forms,
+
+153
+00:07:55,210 --> 00:07:58,690
+help to make forms more accessible than
+
+154
+00:07:58,690 --> 00:08:02,277
+using a themes form
+stylings or another plugin?"
+
+155
+00:08:03,660 --> 00:08:05,410
+So my answer to that
+
+156
+00:08:05,410 --> 00:08:10,190
+and I'll have some more
+information on plugins in a bit.
+
+157
+00:08:10,190 --> 00:08:15,190
+But my answer is some
+plugins that handle things,
+
+158
+00:08:16,590 --> 00:08:18,850
+these commercial plugins,
+
+159
+00:08:18,850 --> 00:08:22,700
+they have some good defaults
+but they're far from perfect
+
+160
+00:08:22,700 --> 00:08:25,550
+and that is why we see the other comments
+
+161
+00:08:25,550 --> 00:08:29,020
+in the chat about some of the plugins
+
+162
+00:08:29,020 --> 00:08:33,780
+like contact form seven
+accessible defaults
+
+163
+00:08:33,780 --> 00:08:38,200
+as well as the Gravity Forms
+
+164
+00:08:38,200 --> 00:08:41,600
+has a wicked to form fields plugin,
+
+165
+00:08:41,600 --> 00:08:44,720
+which help make things
+more accessible with those.
+
+166
+00:08:44,720 --> 00:08:49,720
+So those are all excellent
+plugins to consider using
+
+167
+00:08:50,390 --> 00:08:54,230
+and I wouldn't shy away
+from looking at plugins
+
+168
+00:08:54,230 --> 00:08:57,537
+to help make your design and development
+
+169
+00:08:57,537 --> 00:09:00,520
+and launch of your WordPress site
+
+170
+00:09:00,520 --> 00:09:02,110
+the best it can be, right.
+
+171
+00:09:02,110 --> 00:09:06,290
+But we also want to
+think about accessibility
+
+172
+00:09:06,290 --> 00:09:10,810
+and sometimes these plugin developers
+
+173
+00:09:11,720 --> 00:09:15,590
+haven't taken into
+consideration accessibility
+
+174
+00:09:15,590 --> 00:09:18,870
+very fully or sometimes at all.
+
+175
+00:09:18,870 --> 00:09:23,870
+And so to the rescue or some
+of these other patch plugins.
+

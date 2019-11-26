@@ -1,0 +1,598 @@
+﻿WEBVTT
+
+1
+00:00:00.140 --> 00:00:04.250
+<v Instructor>So the Firefox browser</v>
+
+2
+00:00:04.250 --> 00:00:07.870
+offers a Reader-Mode for websites.
+
+3
+00:00:07.870 --> 00:00:12.870
+So this can be especially handy when you're browsing
+
+4
+00:00:13.040 --> 00:00:15.200
+but there's a lot of dense content,
+
+5
+00:00:15.200 --> 00:00:18.367
+or a lot of noise even from advertisements
+
+6
+00:00:18.367 --> 00:00:22.940
+or side-bar widgets that don't really
+
+7
+00:00:22.940 --> 00:00:24.270
+have anything to do with the article
+
+8
+00:00:24.270 --> 00:00:25.810
+that you want to read.
+
+9
+00:00:25.810 --> 00:00:29.360
+So what browser manufacturers have done,
+
+10
+00:00:29.360 --> 00:00:30.773
+and especially on mobile devices,
+
+11
+00:00:30.773 --> 00:00:32.535
+is they've enabled this reader-mode
+
+12
+00:00:32.535 --> 00:00:37.407
+to strip away the superfluous information
+
+13
+00:00:37.407 --> 00:00:39.564
+or the extraneous information,
+
+14
+00:00:39.564 --> 00:00:44.142
+that isn't core to what you're there to read about.
+
+15
+00:00:44.142 --> 00:00:47.095
+And it can be particularly helpful
+
+16
+00:00:47.095 --> 00:00:52.095
+when you have ads loading or auto-playing videos on sites.
+
+17
+00:00:52.389 --> 00:00:57.343
+Because that can just destroy the user experience.
+
+18
+00:00:57.343 --> 00:01:01.013
+So the reader-mode operates
+
+19
+00:01:01.013 --> 00:01:03.540
+maybe a little bit differently
+
+20
+00:01:03.540 --> 00:01:06.262
+in each browser implementation.
+
+21
+00:01:06.262 --> 00:01:09.790
+But the essence is is that it will try to find
+
+22
+00:01:09.790 --> 00:01:11.960
+what is the main content of the site
+
+23
+00:01:11.960 --> 00:01:13.550
+and strip away everything else.
+
+24
+00:01:13.550 --> 00:01:16.900
+So anything that it knows is from an ad-network
+
+25
+00:01:16.900 --> 00:01:18.274
+or from a 3rd-party-call,
+
+26
+00:01:18.274 --> 00:01:21.883
+it typically removes but it keeps images
+
+27
+00:01:21.883 --> 00:01:24.141
+if they're in line with the article,
+
+28
+00:01:24.141 --> 00:01:28.510
+and keeps headings and the paragraphs that are there.
+
+29
+00:01:28.510 --> 00:01:30.290
+Which you have to have good document structure
+
+30
+00:01:30.290 --> 00:01:32.867
+for that to be present.
+
+31
+00:01:32.867 --> 00:01:35.560
+So I'm gonna fire-up Firefox,
+
+32
+00:01:35.560 --> 00:01:40.320
+and this is going to be an interesting experiment here.
+
+33
+00:01:40.320 --> 00:01:45.320
+So let me just pull-up a site where that might be present.
+
+34
+00:01:48.000 --> 00:01:51.423
+So I'll pull-up a news site,
+
+35
+00:01:51.423 --> 00:01:56.190
+Washington-Post because I know that they have ads.
+
+36
+00:01:56.190 --> 00:02:01.190
+And if I can type and I can get there.
+
+37
+00:02:01.290 --> 00:02:04.210
+So they have ads, they have videos,
+
+38
+00:02:04.210 --> 00:02:07.330
+they have like 3rd party content in here.
+
+39
+00:02:07.330 --> 00:02:10.745
+They have different side-bar content calls-to-action.
+
+40
+00:02:10.745 --> 00:02:14.240
+So that is all well-and-good.
+
+41
+00:02:14.240 --> 00:02:17.020
+But what if I want to read an article?
+
+42
+00:02:17.020 --> 00:02:18.900
+And let me find something that is...
+
+43
+00:02:21.270 --> 00:02:22.103
+Okay.
+
+44
+00:02:22.103 --> 00:02:24.910
+Here's something that hopefully is not as
+
+45
+00:02:29.550 --> 00:02:33.670
+politically troublesome as some of the other news articles,
+
+46
+00:02:33.670 --> 00:02:34.720
+that we see these days.
+
+47
+00:02:34.720 --> 00:02:37.210
+But see here we have an ad for Google Fi,
+
+48
+00:02:37.210 --> 00:02:38.780
+up at the top,
+
+49
+00:02:38.780 --> 00:02:43.600
+and we have this navigation here called By The Way
+
+50
+00:02:43.600 --> 00:02:46.030
+which is the section of the site that we're in.
+
+51
+00:02:46.030 --> 00:02:47.100
+And then there's a video
+
+52
+00:02:47.100 --> 00:02:49.717
+and all the content for the article.
+
+53
+00:02:49.717 --> 00:02:51.200
+And it has some stuff from Twitter
+
+54
+00:02:51.200 --> 00:02:54.418
+some more ads throughout the site,
+
+55
+00:02:54.418 --> 00:02:56.260
+you know it's kinda disturbing,
+
+56
+00:02:56.260 --> 00:02:59.940
+how many ads I'm getting bombarded with as I view.
+
+57
+00:02:59.940 --> 00:03:03.170
+But there's this Reader-View which is fantastic.
+
+58
+00:03:03.170 --> 00:03:07.740
+So I turn that on and basically,
+
+59
+00:03:07.740 --> 00:03:09.257
+this strips down the article.
+
+60
+00:03:09.257 --> 00:03:13.850
+And I don't see any more ads for Google Fi.
+
+61
+00:03:13.850 --> 00:03:17.350
+As much as I might love that service,
+
+62
+00:03:17.350 --> 00:03:21.245
+they're not gonna convince me by bombarding me like that.
+
+63
+00:03:21.245 --> 00:03:24.030
+But the article is nice and readable.
+
+64
+00:03:24.030 --> 00:03:26.733
+It goes into a single column format.
+
+65
+00:03:26.733 --> 00:03:31.733
+And then we get some other I guess related articles,
+
+66
+00:03:32.550 --> 00:03:34.360
+or maybe other different articles
+
+67
+00:03:34.360 --> 00:03:35.910
+that they're trying to promote,
+
+68
+00:03:37.728 --> 00:03:38.561
+at the bottom of the article.
+
+69
+00:03:38.561 --> 00:03:40.560
+But it really simplifies the experience,
+
+70
+00:03:40.560 --> 00:03:43.223
+and removes a lot of the clutter and the noise.
+
+71
+00:03:44.130 --> 00:03:47.400
+On mobile devices it's something you can easily
+
+72
+00:03:47.400 --> 00:03:51.201
+do at Safari on an iOS device,
+
+73
+00:03:51.201 --> 00:03:54.520
+Like an iPhone or an iPad.
+
+74
+00:03:54.520 --> 00:03:56.924
+And I'm sure that on Android and Chrome,
+
+75
+00:03:56.924 --> 00:03:58.880
+there are ways to...
+
+76
+00:04:01.340 --> 00:04:06.000
+You know make the reading experience easier and better.
+
+77
+00:04:06.000 --> 00:04:10.144
+So what this reader-mode does for Firefox
+
+78
+00:04:10.144 --> 00:04:12.550
+and you can change some of the settings here on the left
+
+79
+00:04:12.550 --> 00:04:15.410
+but what this does is it can help
+
+80
+00:04:15.410 --> 00:04:17.241
+with accessibility obviously.
+
+81
+00:04:17.241 --> 00:04:20.290
+If your eyes are tired,
+
+82
+00:04:20.290 --> 00:04:22.790
+after a long day of looking at the screen,
+
+83
+00:04:22.790 --> 00:04:25.335
+like you all are experiencing right now,
+
+84
+00:04:25.335 --> 00:04:28.600
+changing the background color to Sepia,
+
+85
+00:04:28.600 --> 00:04:33.018
+and making it less dark of a contrast with the text,
+
+86
+00:04:33.018 --> 00:04:36.240
+Can help make the text still readable,
+
+87
+00:04:36.240 --> 00:04:39.310
+but a little easier on the eyes.
+
+88
+00:04:39.310 --> 00:04:42.540
+But you know reduce the eye-strain on that.
+
+89
+00:04:42.540 --> 00:04:46.200
+You also get rid of all of this information.
+
+90
+00:04:46.200 --> 00:04:47.560
+It could be cognitive over-load
+
+91
+00:04:47.560 --> 00:04:49.230
+for someone with a cognitive issue,
+
+92
+00:04:49.230 --> 00:04:51.293
+and needs that for accessibility.
+
+93
+00:04:52.710 --> 00:04:56.889
+So Debra had posted a link.
+
+94
+00:04:56.889 --> 00:04:59.400
+How to turn on reader-mode for your browser,
+
+95
+00:04:59.400 --> 00:05:02.993
+for Chrome, Firefox, Edge, Opera, and Safari in the chat.
+
+96
+00:05:02.993 --> 00:05:05.640
+So there's an article that was recently published
+
+97
+00:05:05.640 --> 00:05:06.943
+about how to do that.
+
+98
+00:05:06.943 --> 00:05:10.840
+Which you know we can all benefit from that.
+
+99
+00:05:10.840 --> 00:05:15.840
+But there are folks that will look for the ability
+
+100
+00:05:15.970 --> 00:05:19.879
+to change the interface in an easy way,
+
+101
+00:05:19.879 --> 00:05:22.740
+when things get overwhelming.
+
+102
+00:05:22.740 --> 00:05:26.528
+And I do know of someone who has a traumatic brain injury,
+
+103
+00:05:26.528 --> 00:05:29.343
+who really does get overwhelmed
+
+104
+00:05:29.343 --> 00:05:32.260
+by very busy information on the site.
+
+105
+00:05:32.260 --> 00:05:35.290
+Or things that change or get added to the interface
+
+106
+00:05:35.290 --> 00:05:36.790
+as you scroll-through it,
+
+107
+00:05:36.790 --> 00:05:38.990
+like all of those Google ads that we were seeing
+
+108
+00:05:38.990 --> 00:05:40.210
+in the main article.
+
+109
+00:05:40.210 --> 00:05:42.458
+So with something like this,
+
+110
+00:05:42.458 --> 00:05:46.430
+she can go in and click a button in a setting
+
+111
+00:05:46.430 --> 00:05:48.670
+and change that experience for her.
+
+112
+00:05:48.670 --> 00:05:50.980
+So she can dig in and read the article and focus,
+
+113
+00:05:50.980 --> 00:05:52.960
+and not get distracted or overwhelmed
+
+114
+00:05:52.960 --> 00:05:56.682
+by all of that information
+
+115
+00:05:56.682 --> 00:05:58.970
+that's coming at you at once,
+
+116
+00:05:58.970 --> 00:06:00.423
+and begging for attention.
+
+117
+00:06:02.640 --> 00:06:05.010
+So reader-mode is fantastic.
+
+118
+00:06:05.010 --> 00:06:07.570
+I don't think you have to do anything special
+
+119
+00:06:07.570 --> 00:06:09.490
+to support that other than coding
+
+120
+00:06:09.490 --> 00:06:11.500
+your site with semantics in mind,
+
+121
+00:06:11.500 --> 00:06:14.585
+giving your site good proper structures
+
+122
+00:06:14.585 --> 00:06:18.810
+like good landmark information.
+
+123
+00:06:18.810 --> 00:06:23.040
+Like using the main element for your main content.
+
+124
+00:06:23.040 --> 00:06:26.782
+Using a side-elements for side-bar contents.
+
+125
+00:06:26.782 --> 00:06:30.060
+Using navigation elements for the nav.
+
+126
+00:06:30.060 --> 00:06:35.060
+All of those basic html structures,
+
+127
+00:06:35.760 --> 00:06:37.590
+if you're presenting them to the browser,
+
+128
+00:06:37.590 --> 00:06:39.040
+the browser will know what to do
+
+129
+00:06:39.040 --> 00:06:43.253
+to strip-away the extraneous content.
+
+130
+00:06:44.295 --> 00:06:46.880
+And a lot of this you know happens
+
+131
+00:06:46.880 --> 00:06:49.160
+with good modern responsive design.
+
+132
+00:06:49.160 --> 00:06:51.500
+All of this is enabled by that.
+
+133
+00:06:51.500 --> 00:06:55.461
+So definitely use those best practices.
+
+134
+00:06:55.461 --> 00:06:59.322
+And the user experience,
+
+135
+00:06:59.322 --> 00:07:02.920
+that folks who are visiting your site or using your site,
+
+136
+00:07:02.920 --> 00:07:04.940
+is going to increase greatly
+
+137
+00:07:04.940 --> 00:07:09.826
+with the aid of these browser features and extensions.
+
+138
+00:07:09.826 --> 00:07:12.760
+Some people also have their custom style sheets
+
+139
+00:07:12.760 --> 00:07:14.270
+that strip-away different things.
+
+140
+00:07:14.270 --> 00:07:16.166
+And they have them for specific sites,
+
+141
+00:07:16.166 --> 00:07:21.137
+so that they make them more accessible and better for them.
+
+142
+00:07:21.137 --> 00:07:23.530
+So user style sheets are something
+
+143
+00:07:23.530 --> 00:07:26.190
+that will, most likely, always be around.
+
+144
+00:07:26.190 --> 00:07:30.780
+And while most folks who use them are advanced,
+
+145
+00:07:30.780 --> 00:07:35.780
+technologically you know they are things that people do to,
+
+146
+00:07:37.400 --> 00:07:39.020
+say change the letter-spacing
+
+147
+00:07:39.020 --> 00:07:42.713
+or the line-height and line-spacing.
+
+148
+00:07:42.713 --> 00:07:47.200
+So you know allowing folks to do that without site-breaking,
+
+149
+00:07:47.200 --> 00:07:49.613
+is a real art form.
+

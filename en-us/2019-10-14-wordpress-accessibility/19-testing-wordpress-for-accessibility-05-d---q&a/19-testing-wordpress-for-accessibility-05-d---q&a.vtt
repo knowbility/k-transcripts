@@ -1,0 +1,366 @@
+﻿WEBVTT
+
+1
+00:00:00.290 --> 00:00:01.770
+<v Instructor>So, the question is,</v>
+
+2
+00:00:01.770 --> 00:00:03.410
+does anyone know if screen readers
+
+3
+00:00:03.410 --> 00:00:07.450
+are sometimes mispronouncing,
+
+4
+00:00:07.450 --> 00:00:11.360
+or putting unexpected emphasis
+
+5
+00:00:13.309 --> 00:00:15.350
+on content as it gets read out.
+
+6
+00:00:15.350 --> 00:00:18.220
+Like, skip to content links, right?
+
+7
+00:00:18.220 --> 00:00:21.240
+So, the answers is yes, screen readers still have
+
+8
+00:00:21.240 --> 00:00:23.800
+that interesting little quirk about them,
+
+9
+00:00:23.800 --> 00:00:28.800
+where it may say skip to content, like if you do this,
+
+10
+00:00:29.060 --> 00:00:30.410
+it's gonna make me content.
+
+11
+00:00:31.290 --> 00:00:36.290
+And yes, it will, screen readers will pronounce things
+
+12
+00:00:37.780 --> 00:00:40.280
+in sometimes unexpected ways,
+
+13
+00:00:40.280 --> 00:00:43.430
+but as designers and developers, we don't have to worry
+
+14
+00:00:43.430 --> 00:00:47.640
+about fixing all instances of that in some way.
+
+15
+00:00:47.640 --> 00:00:50.930
+We don't have to jump through flaming hoops to do that,
+
+16
+00:00:50.930 --> 00:00:55.930
+because a lot of these are things that are conventions,
+
+17
+00:00:56.050 --> 00:00:59.880
+or are very well known to screen reader users,
+
+18
+00:00:59.880 --> 00:01:02.350
+and they may even have changed their settings
+
+19
+00:01:02.350 --> 00:01:04.060
+to adjust for that,
+
+20
+00:01:04.060 --> 00:01:05.950
+or they may just have adjusted
+
+21
+00:01:05.950 --> 00:01:07.550
+their expectations around that,
+
+22
+00:01:07.550 --> 00:01:11.040
+where if they hear a skip to content link,
+
+23
+00:01:11.040 --> 00:01:14.450
+and they know it's skip to the main content, that's okay.
+
+24
+00:01:14.450 --> 00:01:18.580
+They don't, it's okay that it's pronounces it that way.
+
+25
+00:01:18.580 --> 00:01:23.580
+Folks understand how to navigate using that pronunciation.
+
+26
+00:01:25.690 --> 00:01:29.750
+So, sometimes acronyms can get folks into trouble,
+
+27
+00:01:29.750 --> 00:01:34.160
+and that is where you may,
+
+28
+00:01:34.160 --> 00:01:37.400
+you may have uppercase text on a page,
+
+29
+00:01:37.400 --> 00:01:41.500
+and that uppercase text gets read out phonetically,
+
+30
+00:01:41.500 --> 00:01:44.770
+or spelled out instead of read as a word.
+
+31
+00:01:44.770 --> 00:01:45.820
+So, there are some things
+
+32
+00:01:45.820 --> 00:01:50.760
+that you do need to do as best practice,
+
+33
+00:01:50.760 --> 00:01:51.850
+but in general,
+
+34
+00:01:51.850 --> 00:01:56.030
+screen readers do a really good job with that.
+
+35
+00:01:56.030 --> 00:01:59.010
+So yeah, we'll take a look
+
+36
+00:01:59.010 --> 00:02:01.620
+at this real quick, this function.
+
+37
+00:02:01.620 --> 00:02:03.530
+So, this function...
+
+38
+00:02:09.000 --> 00:02:10.600
+just changes it.
+
+39
+00:02:10.600 --> 00:02:15.183
+Instead of skip to content, it says skip to main content.
+
+40
+00:02:16.590 --> 00:02:19.410
+Think that's what you were talking about.
+
+41
+00:02:19.410 --> 00:02:23.250
+So yeah, I mean, you can,
+
+42
+00:02:23.250 --> 00:02:26.250
+I think that's a valid helper function
+
+43
+00:02:26.250 --> 00:02:29.144
+that you can have in there,
+
+44
+00:02:29.144 --> 00:02:31.270
+and make it customizable.
+
+45
+00:02:31.270 --> 00:02:32.800
+What would be really awesome,
+
+46
+00:02:32.800 --> 00:02:34.390
+is to allow that to be customizable
+
+47
+00:02:34.390 --> 00:02:36.950
+through the theme customizations
+
+48
+00:02:36.950 --> 00:02:38.750
+that you might have with your theme.
+
+49
+00:02:38.750 --> 00:02:41.750
+So, what do you want that to read out as?
+
+50
+00:02:41.750 --> 00:02:43.840
+And I think that's something that Joe Dolson,
+
+51
+00:02:43.840 --> 00:02:47.410
+with the WP Accessibility plugin, has allowed people to do,
+
+52
+00:02:47.410 --> 00:02:48.880
+is to create custom links.
+
+53
+00:02:48.880 --> 00:02:51.330
+Because there are some sites,
+
+54
+00:02:51.330 --> 00:02:54.670
+and I'll show one right now.
+
+55
+00:02:54.670 --> 00:02:56.203
+No endorsement here.
+
+56
+00:02:57.520 --> 00:02:59.930
+I know people that either love or hate Starbucks,
+
+57
+00:02:59.930 --> 00:03:02.000
+but they do a good job with their skip links.
+
+58
+00:03:02.000 --> 00:03:05.300
+So, I've just gone to the site, and I hit tab,
+
+59
+00:03:05.300 --> 00:03:06.220
+and at first it went
+
+60
+00:03:06.220 --> 00:03:09.560
+to this exciting updates to Starbucks rewards.
+
+61
+00:03:09.560 --> 00:03:12.640
+So, it goes to that promo area first,
+
+62
+00:03:12.640 --> 00:03:16.140
+but the next tab stop is skip to main navigation,
+
+63
+00:03:16.140 --> 00:03:19.350
+then skip to main content, then skip to footer.
+
+64
+00:03:19.350 --> 00:03:21.810
+So, people can customize those skip links
+
+65
+00:03:21.810 --> 00:03:26.810
+and do some interesting things with them, and really,
+
+66
+00:03:26.960 --> 00:03:28.550
+you can have more than one area
+
+67
+00:03:28.550 --> 00:03:30.040
+where you allow people to skip to
+
+68
+00:03:30.040 --> 00:03:33.470
+if people want to navigate that way.
+
+69
+00:03:33.470 --> 00:03:36.790
+That's a good use case for usability testing,
+
+70
+00:03:36.790 --> 00:03:38.120
+is to find out,
+
+71
+00:03:38.120 --> 00:03:41.840
+what do people want when they navigate our site?
+
+72
+00:03:41.840 --> 00:03:42.980
+And especially if you have
+
+73
+00:03:42.980 --> 00:03:44.990
+a lot of different areas of the site,
+
+74
+00:03:44.990 --> 00:03:47.790
+something like this that I'm showing for Starbucks,
+
+75
+00:03:47.790 --> 00:03:51.870
+may be super handy to do.
+
+76
+00:03:51.870 --> 00:03:56.870
+But that is certainly a possibility.
+
+77
+00:03:59.170 --> 00:04:03.150
+And then, someone asked about, at some point,
+
+78
+00:04:03.150 --> 00:04:06.570
+can we go over the reader mode option in Firefox?
+
+79
+00:04:06.570 --> 00:04:10.750
+It will basically strip things down,
+
+80
+00:04:10.750 --> 00:04:13.150
+and I know that we have that reader mode
+
+81
+00:04:13.150 --> 00:04:14.680
+on our mobile phones as well.
+
+82
+00:04:14.680 --> 00:04:19.430
+I know, with my iPhone, a lot of sites will say
+
+83
+00:04:19.430 --> 00:04:22.850
+there's a reader option available, and it can strip out ads
+
+84
+00:04:22.850 --> 00:04:24.380
+and extraneous content.
+
+85
+00:04:24.380 --> 00:04:25.560
+We can certainly go over that.
+
+86
+00:04:25.560 --> 00:04:28.040
+I definitely want us to break for a bit.
+
+87
+00:04:28.040 --> 00:04:30.970
+Let's stop for about...
+
+88
+00:04:33.870 --> 00:04:35.700
+Well Christopher, what do you think we should,
+
+89
+00:04:35.700 --> 00:04:37.370
+how long should we stop for?
+
+90
+00:04:37.370 --> 00:04:40.210
+And then, return, and then we can return
+
+91
+00:04:40.210 --> 00:04:45.210
+with that question for the reader mode.
+

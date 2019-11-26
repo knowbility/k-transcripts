@@ -1,0 +1,398 @@
+﻿WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.440
+<v Robert>Any questions about any</v>
+
+2
+00:00:01.440 --> 00:00:03.400
+of the common accessibility issues?
+
+3
+00:00:03.400 --> 00:00:05.480
+Anyone else have other accessibility issues
+
+4
+00:00:05.480 --> 00:00:10.480
+that they run into that you want to share?
+
+5
+00:00:13.420 --> 00:00:16.620
+<v Man>One thing, Robert, if you don't mind covering</v>
+
+6
+00:00:16.620 --> 00:00:19.770
+is the types of automated tests
+
+7
+00:00:19.770 --> 00:00:22.640
+that Microsoft Inspector runs
+
+8
+00:00:23.910 --> 00:00:27.350
+versus what types of things that it can't
+
+9
+00:00:27.350 --> 00:00:29.513
+catch from like, automated testing.
+
+10
+00:00:30.540 --> 00:00:31.800
+I think someone had an issue or a question
+
+11
+00:00:31.800 --> 00:00:32.750
+about that earlier.
+
+12
+00:00:33.890 --> 00:00:35.940
+<v Robert>Okay, and that's,</v>
+
+13
+00:00:35.940 --> 00:00:38.193
+that is going to be covered a little bit,
+
+14
+00:00:39.735 --> 00:00:43.040
+a little bit later in the day.
+
+15
+00:00:43.040 --> 00:00:46.730
+Not to completely put that off,
+
+16
+00:00:46.730 --> 00:00:49.553
+but it is something that we are going to,
+
+17
+00:00:51.000 --> 00:00:52.500
+we're going to talk about,
+
+18
+00:00:52.500 --> 00:00:56.250
+the differences between automated tests and manual tests.
+
+19
+00:00:56.250 --> 00:00:59.020
+And even the differences between
+
+20
+00:01:00.000 --> 00:01:01.883
+different automated tools.
+
+21
+00:01:04.140 --> 00:01:05.140
+<v Man>Sounds good.</v>
+
+22
+00:01:06.090 --> 00:01:08.370
+<v Robert>And Rebecca had a question.</v>
+
+23
+00:01:08.370 --> 00:01:10.910
+Can I address appropriate markup and semantics
+
+24
+00:01:10.910 --> 00:01:14.563
+for site identifiers like logos or the site name?
+
+25
+00:01:15.940 --> 00:01:19.940
+Yes, so, the
+
+26
+00:01:24.210 --> 00:01:27.840
+site name, I'm going to go to our AIR rally site.
+
+27
+00:01:27.840 --> 00:01:32.840
+So we have a WordPress site, running our, open, well,
+
+28
+00:01:34.520 --> 00:01:37.180
+our AIR competition site.
+
+29
+00:01:37.180 --> 00:01:40.060
+It used to be called Open AIR for a number of years.
+
+30
+00:01:40.060 --> 00:01:42.720
+And it stands for The Accessible Internet Rally.
+
+31
+00:01:42.720 --> 00:01:47.290
+So we have a theme running here
+
+32
+00:01:47.290 --> 00:01:49.640
+and then we have a child theme on here.
+
+33
+00:01:49.640 --> 00:01:54.640
+But here on our home page, we have a heading level one
+
+34
+00:01:55.110 --> 00:02:00.050
+around the site name, right, the site title.
+
+35
+00:02:00.050 --> 00:02:02.590
+And it is AIR powered by nobility.
+
+36
+00:02:02.590 --> 00:02:05.770
+So that's in a div called site branding text,
+
+37
+00:02:05.770 --> 00:02:08.980
+and it is a heading level one.
+
+38
+00:02:08.980 --> 00:02:13.980
+Now if I go to a secondary page, say the compete page,
+
+39
+00:02:15.610 --> 00:02:18.210
+then if I look at it again,
+
+40
+00:02:18.210 --> 00:02:20.040
+I'm hoping this is going to be right.
+
+41
+00:02:20.040 --> 00:02:21.270
+It is.
+
+42
+00:02:21.270 --> 00:02:25.900
+So the site title is now just in a paragraph element.
+
+43
+00:02:25.900 --> 00:02:30.900
+And the heading level one is the title of the page.
+
+44
+00:02:31.600 --> 00:02:34.680
+Which is a very good strategy, I feel,
+
+45
+00:02:34.680 --> 00:02:36.410
+and a good convention to follow.
+
+46
+00:02:36.410 --> 00:02:41.410
+It's one that is recommended in the WordPress theme handbook
+
+47
+00:02:41.580 --> 00:02:43.910
+for accessibility ready themes.
+
+48
+00:02:43.910 --> 00:02:46.660
+So there's a good way that you can create a conditional
+
+49
+00:02:46.660 --> 00:02:50.767
+statement around your main navigation,
+
+50
+00:02:53.567 --> 00:02:55.710
+your main header area,
+
+51
+00:02:55.710 --> 00:02:58.260
+where if it is the homepage then wrap it
+
+52
+00:02:58.260 --> 00:03:02.350
+in a heading level one, but if it's a secondary page,
+
+53
+00:03:02.350 --> 00:03:06.670
+then make your heading level one be title of the page.
+
+54
+00:03:06.670 --> 00:03:10.386
+So, if this were a logo instead, which it could be,
+
+55
+00:03:10.386 --> 00:03:14.090
+we would still follow the same convention where our logo
+
+56
+00:03:14.090 --> 00:03:18.180
+would be inside an image,
+
+57
+00:03:18.180 --> 00:03:20.860
+well the image would be the logo right,
+
+58
+00:03:20.860 --> 00:03:24.730
+and then we'd have alt text for that image
+
+59
+00:03:24.730 --> 00:03:26.610
+that would say what it is.
+
+60
+00:03:26.610 --> 00:03:28.610
+If it's AIR Powered by Knowbility,
+
+61
+00:03:28.610 --> 00:03:31.130
+the Accessible Internet Rally, if that was an image,
+
+62
+00:03:31.130 --> 00:03:33.360
+then we'd just have alt text saying that.
+
+63
+00:03:33.360 --> 00:03:37.690
+And then, we'd wrap that in the heading level one
+
+64
+00:03:37.690 --> 00:03:41.770
+for the homepage, and wrap it just in a paragraph tag
+
+65
+00:03:41.770 --> 00:03:46.770
+for secondary pages that aren't the homepage.
+
+66
+00:03:47.690 --> 00:03:52.690
+All right, so, making icons accessible.
+
+67
+00:03:54.130 --> 00:03:58.760
+Sofia had answered that question
+
+68
+00:03:58.760 --> 00:04:01.280
+that I had about what other
+
+69
+00:04:01.280 --> 00:04:03.040
+common problems are there.
+
+70
+00:04:03.040 --> 00:04:06.780
+And absolutely, icon accessibility
+
+71
+00:04:06.780 --> 00:04:11.570
+is something that does get neglected.
+
+72
+00:04:11.570 --> 00:04:14.443
+I'm going to look at this and,
+
+73
+00:04:16.330 --> 00:04:21.190
+this is an icon that is accessible here.
+
+74
+00:04:21.190 --> 00:04:24.690
+So this is our Facebook icon and our Twitter icon,
+
+75
+00:04:24.690 --> 00:04:26.550
+our social icons on our screen.
+
+76
+00:04:26.550 --> 00:04:28.550
+And you can see it's wrapped in a link,
+
+77
+00:04:28.550 --> 00:04:30.940
+and it has a class of hidden texts
+
+78
+00:04:30.940 --> 00:04:32.540
+called screen reader text,
+
+79
+00:04:32.540 --> 00:04:34.950
+and it says "knowbility on Facebook".
+
+80
+00:04:34.950 --> 00:04:39.840
+And then our svg image for the social icon
+
+81
+00:04:39.840 --> 00:04:44.840
+has a role of image, but it's also hidden using aria.
+
+82
+00:04:44.866 --> 00:04:48.570
+And then all the svg contents are in there.
+
+83
+00:04:48.570 --> 00:04:53.427
+So basically, the image, the svg image itself is ignored
+
+84
+00:04:54.840 --> 00:04:58.460
+by people using assistive technologies, but they do get
+
+85
+00:04:58.460 --> 00:05:02.040
+knowbility on Facebook read out to them if they're using,
+
+86
+00:05:02.040 --> 00:05:03.930
+say, a screen reader.
+
+87
+00:05:03.930 --> 00:05:08.930
+So, that, if I look at the accessibility properties,
+
+88
+00:05:09.170 --> 00:05:12.160
+it's a link and it's computed name
+
+89
+00:05:13.040 --> 00:05:14.410
+is Knowbility on Facebook,
+
+90
+00:05:14.410 --> 00:05:16.690
+because that's what's in the content of the link.
+
+91
+00:05:16.690 --> 00:05:21.690
+So we hide it visibly using the screen reader text
+
+92
+00:05:22.780 --> 00:05:27.780
+that's built in with WordPress, and the screen reader text
+
+93
+00:05:28.070 --> 00:05:33.070
+class hides it on the screen, but makes it available
+
+94
+00:05:33.363 --> 00:05:36.750
+to folks who use assistive technologies.
+
+95
+00:05:36.750 --> 00:05:38.570
+So it's visibly hidden.
+
+96
+00:05:38.570 --> 00:05:41.570
+And I've seen other folks use a class called VH,
+
+97
+00:05:41.570 --> 00:05:46.570
+or visibly hidden, or SR for screen reader.
+
+98
+00:05:46.650 --> 00:05:50.200
+So this is a built-in class and something we'll cover
+
+99
+00:05:50.200 --> 00:05:53.293
+as well and in a little bit more depth in a bit.
+

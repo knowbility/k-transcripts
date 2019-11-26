@@ -1,0 +1,618 @@
+﻿WEBVTT
+
+1
+00:00:01.280 --> 00:00:03.010
+<v Instructor>So, more plugins.</v>
+
+2
+00:00:03.010 --> 00:00:07.720
+So, this is one that we had mentioned in the chat earlier.
+
+3
+00:00:07.720 --> 00:00:11.730
+The WCAG 2.0 Form Fields for Gravity Forms.
+
+4
+00:00:11.730 --> 00:00:13.450
+This is something that we actually
+
+5
+00:00:13.450 --> 00:00:16.740
+use this plugin, or both of these plugins.
+
+6
+00:00:16.740 --> 00:00:18.110
+We use Gravity Forms and then
+
+7
+00:00:18.110 --> 00:00:20.050
+the WCAG 2.0 Form Fields
+
+8
+00:00:20.050 --> 00:00:21.180
+for Gravity Forms
+
+9
+00:00:22.990 --> 00:00:24.800
+on the air rally site.
+
+10
+00:00:24.800 --> 00:00:26.240
+So
+
+11
+00:00:26.240 --> 00:00:28.700
+this is a free plug in.
+
+12
+00:00:28.700 --> 00:00:30.600
+Adrian Gordon is
+
+13
+00:00:32.160 --> 00:00:33.403
+the author of this.
+
+14
+00:00:35.270 --> 00:00:36.900
+And maintains this
+
+15
+00:00:40.130 --> 00:00:42.270
+in a very proactive way.
+
+16
+00:00:42.270 --> 00:00:43.140
+So
+
+17
+00:00:44.250 --> 00:00:45.390
+as changes happen to
+
+18
+00:00:45.390 --> 00:00:47.390
+both Wordpress and Gravity Forms,
+
+19
+00:00:47.390 --> 00:00:51.240
+Adrian is kind enough to keep updating this.
+
+20
+00:00:51.240 --> 00:00:53.450
+Now, the last update was four months ago.
+
+21
+00:00:53.450 --> 00:00:55.260
+There may be some things that need some changing,
+
+22
+00:00:55.260 --> 00:00:57.681
+but it works really, really well.
+
+23
+00:00:57.681 --> 00:01:00.390
+So, that I would highly recommend
+
+24
+00:01:00.390 --> 00:01:03.273
+if you're using Gravity Forms, on your site,
+
+25
+00:01:04.180 --> 00:01:06.670
+Gravity Forms does a good job overall
+
+26
+00:01:06.670 --> 00:01:07.503
+but you
+
+27
+00:01:09.778 --> 00:01:12.720
+cannot ensure full accessability
+
+28
+00:01:12.720 --> 00:01:15.520
+of your forms without using this plugin.
+
+29
+00:01:15.520 --> 00:01:17.190
+And even then there may be some things
+
+30
+00:01:17.190 --> 00:01:19.893
+you have to change or do manually.
+
+31
+00:01:22.120 --> 00:01:26.223
+So Gravity Forms have a plugin to fix those.
+
+32
+00:01:27.220 --> 00:01:30.900
+Contact Form 7, another very popular contact form.
+
+33
+00:01:30.900 --> 00:01:35.460
+And there are accessible defaults by Joe Dolson.
+
+34
+00:01:35.460 --> 00:01:36.603
+Hear his name again.
+
+35
+00:01:38.721 --> 00:01:41.350
+This plugin fixes some of the issues
+
+36
+00:01:41.350 --> 00:01:45.000
+related to Contact Form 7 fields.
+
+37
+00:01:45.000 --> 00:01:46.840
+And this was updated three months ago
+
+38
+00:01:46.840 --> 00:01:50.520
+again Joe is graciously updating
+
+39
+00:01:50.520 --> 00:01:52.120
+this plugin
+
+40
+00:01:52.980 --> 00:01:56.283
+as Contact Form 7 and Wordpress changes.
+
+41
+00:01:57.836 --> 00:02:00.863
+So those are great plugins to use.
+
+42
+00:02:03.790 --> 00:02:05.790
+Genesis Accessible, so if you use the
+
+43
+00:02:05.790 --> 00:02:08.623
+genesis theme framework, Rian,
+
+44
+00:02:09.900 --> 00:02:13.300
+from the Wordpress accessibility team,
+
+45
+00:02:13.300 --> 00:02:16.880
+I think she, after the Gutenberg debacle,
+
+46
+00:02:16.880 --> 00:02:19.710
+has stepped back a little bit
+
+47
+00:02:19.710 --> 00:02:21.060
+from that,
+
+48
+00:02:21.060 --> 00:02:23.380
+but she's a great resource for accessability
+
+49
+00:02:23.380 --> 00:02:24.650
+based out of Europe
+
+50
+00:02:24.650 --> 00:02:29.030
+and has created the Genesis Accessible plugin
+
+51
+00:02:29.030 --> 00:02:31.880
+so that you can make genesis themes
+
+52
+00:02:31.880 --> 00:02:34.820
+more accessible in Wordpress.
+
+53
+00:02:34.820 --> 00:02:38.450
+This has been tested up to 5.2.2
+
+54
+00:02:38.450 --> 00:02:41.063
+and was updated three months ago as well.
+
+55
+00:02:41.900 --> 00:02:44.900
+The genesis theme framework has done a great job
+
+56
+00:02:44.900 --> 00:02:48.440
+with addressing accessibility issues inside of it.
+
+57
+00:02:48.440 --> 00:02:50.890
+They have people at StudioPress,
+
+58
+00:02:50.890 --> 00:02:53.220
+they're very interested in accessibility,
+
+59
+00:02:53.220 --> 00:02:57.340
+so I expect to see more good things from them
+
+60
+00:02:57.340 --> 00:03:00.140
+in the future as they continue
+
+61
+00:03:01.430 --> 00:03:02.453
+creating themes
+
+62
+00:03:02.453 --> 00:03:05.513
+and making updates to their framework.
+
+63
+00:03:06.940 --> 00:03:08.930
+But that's not the only framework, right?
+
+64
+00:03:08.930 --> 00:03:11.150
+So there's a
+
+65
+00:03:11.150 --> 00:03:13.810
+very popular theme called Divi.
+
+66
+00:03:13.810 --> 00:03:16.130
+So CampusPress has created
+
+67
+00:03:18.313 --> 00:03:19.146
+a plugin
+
+68
+00:03:19.146 --> 00:03:22.030
+to address accessibility concerns
+
+69
+00:03:23.088 --> 00:03:23.921
+with Divi.
+
+70
+00:03:23.921 --> 00:03:26.650
+So Divi can be
+
+71
+00:03:26.650 --> 00:03:28.680
+highly dynamic in terms of
+
+72
+00:03:28.680 --> 00:03:30.640
+how you build a theme,
+
+73
+00:03:30.640 --> 00:03:33.630
+or how you build a site using that theme.
+
+74
+00:03:33.630 --> 00:03:37.963
+And it has a number of JavaScript powered
+
+75
+00:03:37.963 --> 00:03:38.796
+items
+
+76
+00:03:38.796 --> 00:03:42.580
+like accordions and
+
+77
+00:03:45.954 --> 00:03:47.699
+different menu options
+
+78
+00:03:47.699 --> 00:03:51.230
+that get fixed with this particular plugin.
+
+79
+00:03:51.230 --> 00:03:53.320
+Now this was last updated six months ago
+
+80
+00:03:53.320 --> 00:03:56.850
+and it was tested up to 5.0.4.
+
+81
+00:03:56.850 --> 00:04:01.360
+I haven't heard any rumblings out of Elegant Themes,
+
+82
+00:04:01.360 --> 00:04:05.780
+who make Divi, about them addressing accessibility
+
+83
+00:04:05.780 --> 00:04:09.061
+proactively within the Divi theme itself
+
+84
+00:04:09.061 --> 00:04:12.602
+or their framework, but it's always good
+
+85
+00:04:12.602 --> 00:04:15.190
+to push for that and to say hey,
+
+86
+00:04:15.190 --> 00:04:17.600
+look at this accessibility plugin,
+
+87
+00:04:17.600 --> 00:04:20.100
+can you start incorporating some of the things
+
+88
+00:04:20.100 --> 00:04:23.410
+that this fixes into your themes and think
+
+89
+00:04:23.410 --> 00:04:25.410
+about accessibility proactively,
+
+90
+00:04:25.410 --> 00:04:28.140
+because there are a number of people
+
+91
+00:04:28.140 --> 00:04:30.940
+that really, really, love Divi
+
+92
+00:04:30.940 --> 00:04:34.070
+and I cringe because I have tried to build sites
+
+93
+00:04:34.070 --> 00:04:37.112
+with Divi and to build them accessibly
+
+94
+00:04:37.112 --> 00:04:39.610
+is a very difficult task.
+
+95
+00:04:39.610 --> 00:04:41.360
+So this plugin helps with that,
+
+96
+00:04:41.360 --> 00:04:44.190
+but because it's very popular, people like it
+
+97
+00:04:44.190 --> 00:04:47.050
+because there are certain ease of use
+
+98
+00:04:47.050 --> 00:04:50.520
+for non-technical website authors or builders
+
+99
+00:04:50.520 --> 00:04:54.260
+that you can really benefit from having
+
+100
+00:04:54.260 --> 00:04:56.783
+accessibility baked into it, something like Divi.
+
+101
+00:05:00.780 --> 00:05:04.670
+Let's get into some plugins that just have
+
+102
+00:05:04.670 --> 00:05:06.100
+accessibility baked into them.
+
+103
+00:05:06.100 --> 00:05:11.100
+So Joe Dolson, surprise, built a My Calendar plugin.
+
+104
+00:05:11.100 --> 00:05:14.885
+So this is an events calendar plugin for Wordpress
+
+105
+00:05:14.885 --> 00:05:18.610
+that allows accessibility out of the box.
+
+106
+00:05:18.610 --> 00:05:20.683
+It has accessible defaults.
+
+107
+00:05:21.930 --> 00:05:22.960
+He also has
+
+108
+00:05:24.650 --> 00:05:26.720
+a My Tickets plugin
+
+109
+00:05:26.720 --> 00:05:30.230
+that can work with My Calendar so
+
+110
+00:05:32.831 --> 00:05:36.710
+you can rest assured that his plugin
+
+111
+00:05:36.710 --> 00:05:41.073
+works accessibly out of the box, so to speak.
+
+112
+00:05:43.920 --> 00:05:47.470
+There is the Soliloquy Slider.
+
+113
+00:05:47.470 --> 00:05:51.500
+So this is a plugin for carousels
+
+114
+00:05:51.500 --> 00:05:56.500
+and I learned about this from a former colleague of mine,
+
+115
+00:05:56.730 --> 00:05:58.793
+Bobby Brooks here at Nobility.
+
+116
+00:06:01.015 --> 00:06:03.290
+He did a lot of Wordpress training
+
+117
+00:06:05.260 --> 00:06:08.560
+with our clients but also at AccessU,
+
+118
+00:06:08.560 --> 00:06:11.950
+our conference on web accessibility every year in Austin.
+
+119
+00:06:11.950 --> 00:06:14.020
+And Bobby
+
+120
+00:06:15.280 --> 00:06:16.550
+knew
+
+121
+00:06:16.550 --> 00:06:17.770
+something that I didn't
+
+122
+00:06:17.770 --> 00:06:22.770
+which is that if you had to build a carousel in Wordpress,
+
+123
+00:06:23.610 --> 00:06:26.830
+and you needed to make it accessible,
+
+124
+00:06:26.830 --> 00:06:29.500
+that Soliloquy would allow you to do that.
+
+125
+00:06:29.500 --> 00:06:30.980
+It's not that,
+
+126
+00:06:30.980 --> 00:06:32.750
+not that it will
+
+127
+00:06:32.750 --> 00:06:34.020
+force you to do that.
+
+128
+00:06:34.020 --> 00:06:35.700
+You can make a very inaccessible
+
+129
+00:06:35.700 --> 00:06:38.630
+carousel experience using Soliloquy,
+
+130
+00:06:38.630 --> 00:06:42.683
+but if you care about accessibility,
+
+131
+00:06:44.227 --> 00:06:47.270
+you can customize the interface
+
+132
+00:06:48.680 --> 00:06:53.340
+using the Soliloquy slider theme options within it.
+
+133
+00:06:53.340 --> 00:06:57.340
+And you can make a very accessible carousel interface.
+
+134
+00:06:57.340 --> 00:06:58.200
+I would argue
+
+135
+00:07:00.460 --> 00:07:01.690
+in most instances
+
+136
+00:07:01.690 --> 00:07:05.100
+you may not need a carousel for your site,
+
+137
+00:07:05.100 --> 00:07:07.920
+but there are certain use cases
+
+138
+00:07:07.920 --> 00:07:09.900
+where carousels do make sense
+
+139
+00:07:09.900 --> 00:07:12.330
+and certainly product sliders
+
+140
+00:07:12.330 --> 00:07:15.480
+where you're sliding across images, things like that,
+
+141
+00:07:15.480 --> 00:07:18.010
+a soliloquy slider might be the answer
+
+142
+00:07:18.010 --> 00:07:19.810
+if you need to make that accessible.
+
+143
+00:07:21.680 --> 00:07:25.540
+So that's one that has accessibility support
+
+144
+00:07:27.832 --> 00:07:28.665
+that you can,
+
+145
+00:07:30.130 --> 00:07:31.990
+use within it.
+
+146
+00:07:31.990 --> 00:07:36.080
+And then the other one is this NextGen image gallery.
+
+147
+00:07:36.080 --> 00:07:37.750
+So the NextGen image gallery
+
+148
+00:07:38.980 --> 00:07:42.010
+also allows you to customize it
+
+149
+00:07:42.010 --> 00:07:46.140
+and ensure that it is accessible.
+
+150
+00:07:46.140 --> 00:07:48.000
+You can make a very inaccessible
+
+151
+00:07:48.000 --> 00:07:49.713
+image gallery with it as well.
+
+152
+00:07:51.470 --> 00:07:53.023
+And they also have pro,
+
+153
+00:07:54.750 --> 00:07:55.980
+premium plugin
+
+154
+00:07:57.540 --> 00:07:59.453
+plugin options with features.
+

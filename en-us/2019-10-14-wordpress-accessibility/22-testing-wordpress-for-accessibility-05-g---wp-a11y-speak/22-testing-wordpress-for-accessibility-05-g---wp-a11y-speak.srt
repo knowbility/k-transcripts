@@ -1,0 +1,546 @@
+﻿1
+00:00:00,130 --> 00:00:02,730
+- [Instructor] So this is
+the demo page that Sammy
+
+2
+00:00:02,730 --> 00:00:06,510
+from the WordPress core team had posted.
+
+3
+00:00:06,510 --> 00:00:08,570
+So let's see what happens here.
+
+4
+00:00:08,570 --> 00:00:11,567
+So I'm just going to use my tab.
+
+5
+00:00:11,567 --> 00:00:12,700
+- [Computer Generated Voice]
+Kuorinka, Select City,
+
+6
+00:00:12,700 --> 00:00:14,860
+pop up button, menu five
+items, check mark, Helsinki,
+
+7
+00:00:14,860 --> 00:00:17,180
+Kuopio, you are currently on a menu item.
+
+8
+00:00:17,180 --> 00:00:19,330
+To choose this menu item,
+press control, option, space.
+
+9
+00:00:19,330 --> 00:00:21,770
+Press Kuopio, Kuopio,
+select city, pop up button.
+
+10
+00:00:21,770 --> 00:00:23,640
+Filtering contacts was successful.
+
+11
+00:00:23,640 --> 00:00:25,900
+You are currently on a popup button.
+
+12
+00:00:25,900 --> 00:00:28,130
+- [Instructor] So filtering
+contents was successful.
+
+13
+00:00:28,130 --> 00:00:31,429
+No where on the page does that say this
+
+14
+00:00:31,429 --> 00:00:33,943
+in visible text, right?
+
+15
+00:00:34,881 --> 00:00:38,500
+It is just something that was spoken.
+
+16
+00:00:38,500 --> 00:00:43,500
+So that is an example of
+how that ARIA live region
+
+17
+00:00:44,110 --> 00:00:48,220
+was populated using the
+WP.A11y.speak method
+
+18
+00:00:53,929 --> 00:00:58,929
+in JavaScript to basically
+filter out that information.
+
+19
+00:00:59,930 --> 00:01:02,800
+So let's see if there's
+another thing we can do.
+
+20
+00:01:02,800 --> 00:01:04,300
+So let's see.
+- Accessibility.
+
+21
+00:01:04,300 --> 00:01:06,740
+Select menu six, up code, money, music,
+
+22
+00:01:06,740 --> 00:01:09,680
+closing menu, filtering
+categories was successful.
+
+23
+00:01:09,680 --> 00:01:10,940
+You are currently on a pop up button.
+
+24
+00:01:10,940 --> 00:01:12,630
+To display--
+- So there we go.
+
+25
+00:01:12,630 --> 00:01:16,770
+I filtered y category and it
+also announced it, as well.
+
+26
+00:01:16,770 --> 00:01:21,770
+So that was very, very
+interesting how that works.
+
+27
+00:01:22,120 --> 00:01:25,282
+So with this GABnow site,
+
+28
+00:01:25,282 --> 00:01:28,302
+they could--
+- Voiceover off.
+
+29
+00:01:28,302 --> 00:01:31,203
+- [Instructor] Start
+using a framework to do,
+
+30
+00:01:33,270 --> 00:01:34,740
+well this is a full page reload.
+
+31
+00:01:34,740 --> 00:01:38,580
+But if they were doing a
+framework to update information,
+
+32
+00:01:38,580 --> 00:01:42,023
+then they could use that speak method.
+
+33
+00:01:43,770 --> 00:01:45,000
+Here, here's the accordions.
+
+34
+00:01:45,000 --> 00:01:46,940
+Let's see if these are accessible here.
+
+35
+00:01:46,940 --> 00:01:48,860
+'Cause these I know they're accordions
+
+36
+00:01:48,860 --> 00:01:52,423
+because I can look at job
+descriptions under each,
+
+37
+00:01:53,810 --> 00:01:54,780
+each heading here.
+
+38
+00:01:54,780 --> 00:01:58,293
+So let's see first if they
+are accessible via keyboard.
+
+39
+00:01:59,320 --> 00:02:00,293
+Let's see.
+
+40
+00:02:02,786 --> 00:02:04,140
+Oh, I got it to apply now.
+
+41
+00:02:04,140 --> 00:02:05,193
+It doesn't look like,
+
+42
+00:02:06,680 --> 00:02:09,580
+back tabbing through all these items.
+
+43
+00:02:09,580 --> 00:02:12,450
+Yeah, all I can get to are form fields,
+
+44
+00:02:12,450 --> 00:02:16,080
+and these items right here don't seem
+
+45
+00:02:16,080 --> 00:02:18,120
+to be keyboard accessible at all.
+
+46
+00:02:18,120 --> 00:02:23,120
+So that's a flag that
+I would throw up here.
+
+47
+00:02:23,350 --> 00:02:25,480
+But then the other one
+would be just to see
+
+48
+00:02:25,480 --> 00:02:29,303
+what happens with voiceover.
+
+49
+00:02:30,746 --> 00:02:31,579
+- [Computer Generated
+Voice] Voiceover on Safari,
+
+50
+00:02:31,579 --> 00:02:33,090
+Join Our Team, vertical line, gabnow.org.
+
+51
+00:02:33,090 --> 00:02:36,940
+Join our team, vericle line,
+gabnow.org, web content.
+
+52
+00:02:36,940 --> 00:02:39,470
+In join our team, vertical,
+link, zero, search.
+
+53
+00:02:39,470 --> 00:02:40,910
+You are currently on a search.
+- Notice,
+
+54
+00:02:40,910 --> 00:02:43,110
+there's no skip link here, as well.
+
+55
+00:02:43,110 --> 00:02:46,020
+So no way to skip all of
+these navigation items.
+
+56
+00:02:46,020 --> 00:02:49,570
+I just have to go through
+them or jump to the region,
+
+57
+00:02:49,570 --> 00:02:51,550
+which I'll go ahead and
+do because I don't--
+
+58
+00:02:51,550 --> 00:02:53,832
+- Headings Menu.
+- Want to go through all that.
+
+59
+00:02:53,832 --> 00:02:54,665
+- [Computer Generated
+Voice] Heading level two,
+
+60
+00:02:54,665 --> 00:02:56,010
+heading level two items,
+volunteer opportunities,
+
+61
+00:02:56,010 --> 00:02:57,860
+heading level two, heading
+level six, two items.
+
+62
+00:02:57,860 --> 00:02:58,950
+Down pointing black pointer.
+
+63
+00:02:58,950 --> 00:03:00,730
+Heading level two items, internship.
+
+64
+00:03:00,730 --> 00:03:03,330
+Heading level two items,
+generations against bullying,
+
+65
+00:03:03,330 --> 00:03:04,163
+GAB, is proud to announce
+
+66
+00:03:04,163 --> 00:03:05,450
+the following internships available.
+
+67
+00:03:05,450 --> 00:03:06,610
+Heading level six, two items.
+
+68
+00:03:06,610 --> 00:03:08,720
+Down pointing black pointer, accounting.
+
+69
+00:03:08,720 --> 00:03:10,000
+You are currently on heading level six.
+
+70
+00:03:10,000 --> 00:03:11,250
+Inside of web content.
+
+71
+00:03:11,250 --> 00:03:12,570
+To exit this web area, press control,
+
+72
+00:03:12,570 --> 00:03:13,770
+option, shift, up arrow.
+
+73
+00:03:15,700 --> 00:03:17,000
+- [Instructor] So it just tells me that
+
+74
+00:03:17,000 --> 00:03:19,700
+I'm on a heading level
+six, but it doesn't tell me
+
+75
+00:03:19,700 --> 00:03:21,030
+that I can do anything with that.
+
+76
+00:03:21,030 --> 00:03:24,164
+It does say downward pointing black arrow.
+
+77
+00:03:24,164 --> 00:03:26,250
+On my screen, it's actually green,
+
+78
+00:03:26,250 --> 00:03:28,550
+but that's the icon that they're using.
+
+79
+00:03:28,550 --> 00:03:33,010
+It does have for the
+symbol that they're using.
+
+80
+00:03:33,010 --> 00:03:37,470
+And so Safari and voiceover
+know enough about this
+
+81
+00:03:37,470 --> 00:03:42,250
+to say, okay I think that's a
+downward pointing black arrow.
+
+82
+00:03:42,250 --> 00:03:45,070
+But I'm gonna try to click this area
+
+83
+00:03:45,070 --> 00:03:47,667
+with a control, option, space.
+
+84
+00:03:47,667 --> 00:03:48,810
+- [Computer Generated Voice] Accounting.
+
+85
+00:03:48,810 --> 00:03:50,240
+You are currently on a
+text element, inside,
+
+86
+00:03:50,240 --> 00:03:51,780
+down pointing black pointer.
+
+87
+00:03:51,780 --> 00:03:53,292
+You are currently on a text element, in--
+
+88
+00:03:53,292 --> 00:03:56,810
+- [Instructor] So now it still
+says down point black arrow,
+
+89
+00:03:56,810 --> 00:03:59,160
+but the arrow is pointing up.
+
+90
+00:03:59,160 --> 00:04:01,310
+Also, that whole area expanded.
+
+91
+00:04:01,310 --> 00:04:04,028
+So what I would be expecting
+for an accordion control
+
+92
+00:04:04,028 --> 00:04:06,530
+as a screen reader user would be to know
+
+93
+00:04:06,530 --> 00:04:09,668
+that something was collapsed
+and that it's clickable,
+
+94
+00:04:09,668 --> 00:04:12,920
+and--
+- Karen Creps to everyone,
+
+95
+00:04:12,920 --> 00:04:16,770
+your video seems to be
+lagging behind Robert's audio.
+
+96
+00:04:16,770 --> 00:04:19,373
+While he was talking about
+accord, voice over off.
+
+97
+00:04:21,540 --> 00:04:23,840
+- [Instructor] So I'm getting
+some of the chat come through,
+
+98
+00:04:23,840 --> 00:04:28,840
+but what I was explaining here was that
+
+99
+00:04:29,192 --> 00:04:34,192
+the voiceover experience,
+or screen reader experience,
+
+100
+00:04:34,210 --> 00:04:38,800
+I would want that to basically announce
+
+101
+00:04:38,800 --> 00:04:40,410
+that something was collapsed
+
+102
+00:04:40,410 --> 00:04:43,920
+and that something was
+clickable to expand it.
+
+103
+00:04:43,920 --> 00:04:45,920
+And I got neither.
+
+104
+00:04:45,920 --> 00:04:49,880
+In fact, with the way
+that this has been coded,
+
+105
+00:04:49,880 --> 00:04:52,548
+the downward pointing black arrow
+
+106
+00:04:52,548 --> 00:04:55,750
+is now upward pointing,
+but it still announces
+
+107
+00:04:55,750 --> 00:04:58,840
+as downward pointing black
+arrow after it expands.
+
+108
+00:04:58,840 --> 00:05:03,480
+So while I can click on it with voiceover
+
+109
+00:05:03,480 --> 00:05:05,150
+because I'm reading through the content,
+
+110
+00:05:05,150 --> 00:05:06,630
+I just guessed at that.
+
+111
+00:05:06,630 --> 00:05:08,530
+And that's because I can see the screen
+
+112
+00:05:08,530 --> 00:05:11,050
+and I know that I can
+click on it with a mouse
+
+113
+00:05:11,050 --> 00:05:13,790
+and do that, and kind
+of expand and collapse.
+
+114
+00:05:13,790 --> 00:05:16,410
+So, there's a little bit of work that
+
+115
+00:05:16,410 --> 00:05:17,850
+they would need to do here
+
+116
+00:05:17,850 --> 00:05:20,880
+to make these accordions more accessible.
+
+117
+00:05:20,880 --> 00:05:24,563
+But they can be, and they can
+look the same as they do now.
+
+118
+00:05:25,400 --> 00:05:28,610
+Other than maybe some color
+contrast on their link text,
+
+119
+00:05:28,610 --> 00:05:32,000
+that looks like it's a light
+green or a teal and white.
+
+120
+00:05:32,000 --> 00:05:36,748
+Which I flag that in
+my mind mentally noting
+
+121
+00:05:36,748 --> 00:05:38,790
+that's something for me to check
+
+122
+00:05:38,790 --> 00:05:42,853
+and say okay, let's do a full
+check on the contrast of this.
+

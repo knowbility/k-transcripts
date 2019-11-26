@@ -1,0 +1,806 @@
+﻿WEBVTT
+
+1
+00:00:00.210 --> 00:00:02.210
+<v Instructor>Other things we can do for testing.</v>
+
+2
+00:00:02.210 --> 00:00:06.380
+So automated tools exist outside of WordPress,
+
+3
+00:00:06.380 --> 00:00:10.870
+and that is what I like to do first
+
+4
+00:00:10.870 --> 00:00:12.910
+when I use an automated tool, is to use
+
+5
+00:00:12.910 --> 00:00:14.670
+something that's outside of WordPress.
+
+6
+00:00:14.670 --> 00:00:18.480
+So Accessibility Insights for the Web
+
+7
+00:00:18.480 --> 00:00:22.090
+was provided recently, earlier this year
+
+8
+00:00:22.090 --> 00:00:24.990
+in March, they announced the launch of it,
+
+9
+00:00:24.990 --> 00:00:29.990
+Deque Labs and Microsoft, or Deque Systems produced it.
+
+10
+00:00:31.370 --> 00:00:35.830
+So Microsoft underwrote a lot of the development efforts
+
+11
+00:00:35.830 --> 00:00:39.490
+to create browser plugins, but also a Windows application.
+
+12
+00:00:39.490 --> 00:00:42.010
+So I'll make sure I update this deck
+
+13
+00:00:42.010 --> 00:00:45.194
+to have the link to it, but it is
+
+14
+00:00:45.194 --> 00:00:49.500
+accessibilityinsights.io, is the link.
+
+15
+00:00:49.500 --> 00:00:53.460
+And you can add it to chrome as a plugin,
+
+16
+00:00:53.460 --> 00:00:55.460
+you can add it to Microsoft Edge Insider
+
+17
+00:00:55.460 --> 00:00:57.790
+if you're on Windows and running Edge,
+
+18
+00:00:57.790 --> 00:00:59.740
+and the Insider version of it,
+
+19
+00:00:59.740 --> 00:01:02.150
+or you can download the application for Windows.
+
+20
+00:01:02.150 --> 00:01:04.670
+So you can check Windows applications
+
+21
+00:01:04.670 --> 00:01:07.990
+as well as, I think, web applications.
+
+22
+00:01:07.990 --> 00:01:10.343
+So with that particular one.
+
+23
+00:01:12.340 --> 00:01:14.700
+But I have it installed in Chrome,
+
+24
+00:01:14.700 --> 00:01:18.270
+because it's pretty awesome, and one of the things
+
+25
+00:01:18.270 --> 00:01:22.280
+that we can do, is we can take a look at...
+
+26
+00:01:25.680 --> 00:01:29.080
+where's my site, so here we go.
+
+27
+00:01:29.080 --> 00:01:30.340
+So we can take a look at this site
+
+28
+00:01:30.340 --> 00:01:32.120
+with Accessibility Insights for the Web,
+
+29
+00:01:32.120 --> 00:01:34.600
+so here's the front page, and it will run
+
+30
+00:01:34.600 --> 00:01:37.140
+the checks that it knows about to do.
+
+31
+00:01:37.140 --> 00:01:41.290
+So there are a few different things that you can do.
+
+32
+00:01:41.290 --> 00:01:43.980
+So you can run this FastPass, which is,
+
+33
+00:01:43.980 --> 00:01:46.090
+it runs two tests to find the most common
+
+34
+00:01:46.090 --> 00:01:48.320
+accessibility issues in less than five minutes,
+
+35
+00:01:48.320 --> 00:01:51.810
+you can do assessment, which is a guided walkthrough
+
+36
+00:01:51.810 --> 00:01:54.770
+of both automated and manual testing.
+
+37
+00:01:54.770 --> 00:01:56.920
+This is an excellent tool for that,
+
+38
+00:01:56.920 --> 00:01:59.750
+and then you can do ad hoc tools,
+
+39
+00:01:59.750 --> 00:02:03.860
+which you can run just one by one.
+
+40
+00:02:03.860 --> 00:02:05.450
+So, first thing I'll do is I'll just
+
+41
+00:02:05.450 --> 00:02:07.310
+open up a FastPass check.
+
+42
+00:02:07.310 --> 00:02:12.310
+So I'm going to change this window a little bit.
+
+43
+00:02:12.820 --> 00:02:15.280
+So no failures were detected on this,
+
+44
+00:02:15.280 --> 00:02:19.173
+lemme change this window too, this runs side by side.
+
+45
+00:02:20.750 --> 00:02:24.830
+So no failures were found with
+
+46
+00:02:24.830 --> 00:02:27.940
+the automated checks using this.
+
+47
+00:02:27.940 --> 00:02:29.710
+Much different than what Tenon did
+
+48
+00:02:29.710 --> 00:02:33.300
+with it's automated checks, as you are aware now.
+
+49
+00:02:33.300 --> 00:02:35.730
+But then you can also run tab stop checking,
+
+50
+00:02:35.730 --> 00:02:37.780
+so you can check for your tab stops.
+
+51
+00:02:37.780 --> 00:02:41.040
+So I just turned it on, I toggled it on over here
+
+52
+00:02:41.040 --> 00:02:44.630
+in this other window for accessibility insights,
+
+53
+00:02:44.630 --> 00:02:47.610
+and then over on the other window once I hit tab,
+
+54
+00:02:47.610 --> 00:02:51.080
+that skip to content came up with a red circle on it,
+
+55
+00:02:51.080 --> 00:02:54.070
+and it's gonna show the tab stops.
+
+56
+00:02:54.070 --> 00:02:58.190
+So then it says wp-default, which is that home link,
+
+57
+00:02:58.190 --> 00:03:01.330
+and then it skips down to the next focusable element,
+
+58
+00:03:01.330 --> 00:03:05.070
+which is the comment box, and then the name, email,
+
+59
+00:03:05.070 --> 00:03:06.920
+but it shows a pathway, and it shows
+
+60
+00:03:06.920 --> 00:03:08.790
+the number for each of these.
+
+61
+00:03:08.790 --> 00:03:12.443
+So basically if this looks like it's out of place,
+
+62
+00:03:14.586 --> 00:03:16.510
+or out of order, if the tab order
+
+63
+00:03:16.510 --> 00:03:20.460
+visibly jumps around on the page when you're doing this,
+
+64
+00:03:20.460 --> 00:03:23.270
+then you probably have a problem
+
+65
+00:03:23.270 --> 00:03:28.270
+with the page structure, or hierarchy on your page.
+
+66
+00:03:29.850 --> 00:03:33.340
+So this is one of the tools that you can run
+
+67
+00:03:34.370 --> 00:03:38.100
+straight out of the box with WordPress.
+
+68
+00:03:38.100 --> 00:03:43.100
+So yes, we'll be sharing all of this after
+
+69
+00:03:45.250 --> 00:03:48.320
+we have a chance to get everything captioned for this.
+
+70
+00:03:48.320 --> 00:03:50.330
+So we'll be not only sharing the deck,
+
+71
+00:03:50.330 --> 00:03:53.970
+the slide deck, but also you'll have
+
+72
+00:03:53.970 --> 00:03:55.453
+full access to the recording.
+
+73
+00:03:58.270 --> 00:04:01.730
+Now, that's just the FastPass testing of this page.
+
+74
+00:04:01.730 --> 00:04:04.030
+So what if we wanna do a full assessment?
+
+75
+00:04:04.030 --> 00:04:06.670
+So of course we have the automated checks,
+
+76
+00:04:06.670 --> 00:04:09.520
+and it's scanning, and if it's the same
+
+77
+00:04:09.520 --> 00:04:11.060
+automated checks, it should come back
+
+78
+00:04:11.060 --> 00:04:13.160
+with the same results, so it did.
+
+79
+00:04:13.160 --> 00:04:17.850
+It passed all of these different things on this homepage.
+
+80
+00:04:17.850 --> 00:04:21.853
+So, if it didn't, then it would flag those items.
+
+81
+00:04:23.110 --> 00:04:26.110
+Keyboard navigation, so this is where
+
+82
+00:04:26.110 --> 00:04:30.497
+we would have, you know, the visible focus
+
+83
+00:04:32.150 --> 00:04:34.570
+and all of that, of all of the focus paths.
+
+84
+00:04:34.570 --> 00:04:37.980
+So we can do visual helper, and users
+
+85
+00:04:37.980 --> 00:04:40.570
+must be able to navigate to all interactive components,
+
+86
+00:04:40.570 --> 00:04:44.790
+so this is that keyboard focusing that we did before.
+
+87
+00:04:44.790 --> 00:04:46.870
+But this will walk you through all
+
+88
+00:04:46.870 --> 00:04:48.120
+of the different types of tests
+
+89
+00:04:48.120 --> 00:04:51.550
+that you need to do, tells you how to test them,
+
+90
+00:04:51.550 --> 00:04:56.550
+as well as a way to flag them as a potential pass or fail.
+
+91
+00:04:56.740 --> 00:05:00.670
+You can also export the results to Github,
+
+92
+00:05:00.670 --> 00:05:03.180
+or I believe to other formats as well,
+
+93
+00:05:03.180 --> 00:05:05.440
+but there are some things you can do in settings.
+
+94
+00:05:05.440 --> 00:05:09.060
+So you can use Azure Boards, you can
+
+95
+00:05:11.420 --> 00:05:14.800
+file issues in Github, or you can also change
+
+96
+00:05:14.800 --> 00:05:18.480
+other settings like the contrast of this tool.
+
+97
+00:05:18.480 --> 00:05:22.680
+But it's fantastic, and it will run a number
+
+98
+00:05:22.680 --> 00:05:25.540
+of different, help you run a number of different tests.
+
+99
+00:05:25.540 --> 00:05:29.920
+Can't recommend it highly enough, it's just that good.
+
+100
+00:05:29.920 --> 00:05:31.500
+So I'll close out of that window,
+
+101
+00:05:31.500 --> 00:05:33.510
+and we'll talk about some other tools,
+
+102
+00:05:33.510 --> 00:05:35.870
+'cause that's not the only game in town
+
+103
+00:05:35.870 --> 00:05:37.293
+with accessibility testing.
+
+104
+00:05:38.360 --> 00:05:42.000
+Inside Chrome you can run an audit using Lighthouse
+
+105
+00:05:42.000 --> 00:05:47.000
+and using the accessibility testing tools there.
+
+106
+00:05:47.210 --> 00:05:48.910
+You can also run it against performance
+
+107
+00:05:48.910 --> 00:05:51.670
+and things like that, so I'm going to do
+
+108
+00:05:51.670 --> 00:05:55.530
+just that right now, so I'm gonna open up inspector,
+
+109
+00:05:55.530 --> 00:06:00.530
+and in here, we have an audits panel.
+
+110
+00:06:01.870 --> 00:06:06.870
+And you can run audits choosing which device type,
+
+111
+00:06:07.240 --> 00:06:11.180
+mobile or desktop, which audits you wanna run,
+
+112
+00:06:11.180 --> 00:06:14.450
+performance, progressive web app, best practices,
+
+113
+00:06:14.450 --> 00:06:17.080
+accessibility, SEO, so you can run all of those
+
+114
+00:06:17.080 --> 00:06:19.703
+or just one of them, doesn't matter.
+
+115
+00:06:20.894 --> 00:06:23.850
+You can simulate a slow connection if you want,
+
+116
+00:06:23.850 --> 00:06:26.660
+for performance, I'm just gonna say no throttling,
+
+117
+00:06:26.660 --> 00:06:28.120
+and I'm just gonna click on run audit.
+
+118
+00:06:28.120 --> 00:06:31.380
+So I'm running the accessibility audit using Lighthouse.
+
+119
+00:06:31.380 --> 00:06:35.230
+Lighthouse uses the aXe testing engine,
+
+120
+00:06:35.230 --> 00:06:38.020
+just like the Accessibility Insights for the Web does,
+
+121
+00:06:38.020 --> 00:06:40.520
+so it should get about the same results.
+
+122
+00:06:43.250 --> 00:06:46.480
+So it's auditing this right now, and it's generating
+
+123
+00:06:46.480 --> 00:06:49.020
+a report, and lo and behold, because it's running
+
+124
+00:06:49.020 --> 00:06:51.490
+the same engine that Accessibility Insights was,
+
+125
+00:06:51.490 --> 00:06:54.070
+and it didn't find any automated issues,
+
+126
+00:06:54.070 --> 00:06:56.530
+it gives me 100 for accessibility.
+
+127
+00:06:56.530 --> 00:07:01.333
+100% score, so I'm getting a good grade right now, for that.
+
+128
+00:07:02.270 --> 00:07:05.570
+The thing to keep in mind though
+
+129
+00:07:05.570 --> 00:07:10.570
+with any automated testing, is what I have repeated
+
+130
+00:07:10.780 --> 00:07:13.920
+a few times, and what I saw Sumner and others
+
+131
+00:07:13.920 --> 00:07:16.940
+post in the chat when I looked over, is that
+
+132
+00:07:21.190 --> 00:07:23.140
+this is not a magical endorsement
+
+133
+00:07:23.140 --> 00:07:26.500
+that your site is fully accessible.
+
+134
+00:07:26.500 --> 00:07:29.133
+If you get 100 on the accessibility audit,
+
+135
+00:07:30.420 --> 00:07:33.250
+you know, celebrations are probably not in order,
+
+136
+00:07:33.250 --> 00:07:35.520
+because only a subset of issues
+
+137
+00:07:35.520 --> 00:07:39.430
+can be automatically detected, and they say that here.
+
+138
+00:07:39.430 --> 00:07:43.500
+And so they say, "manual testing is also encouraged."
+
+139
+00:07:43.500 --> 00:07:48.020
+So it tells you what passed in here,
+
+140
+00:07:48.020 --> 00:07:52.170
+which is really cool, so it tells you what it checks for,
+
+141
+00:07:52.170 --> 00:07:53.660
+and you can expand these items
+
+142
+00:07:53.660 --> 00:07:56.180
+and learn more about them, learn more
+
+143
+00:07:56.180 --> 00:07:58.850
+about these checks, which is great.
+
+144
+00:07:58.850 --> 00:08:03.850
+And you can see what was not applicable,
+
+145
+00:08:04.980 --> 00:08:06.840
+so I didn't have any access keys,
+
+146
+00:08:06.840 --> 00:08:08.750
+so it didn't check it, I didn't have audio,
+
+147
+00:08:10.117 --> 00:08:12.217
+I didn't have an iframe or frame elements,
+
+148
+00:08:13.200 --> 00:08:15.310
+things like that, video elements, I don't have them
+
+149
+00:08:15.310 --> 00:08:17.780
+on this particular page, so it didn't check them.
+
+150
+00:08:17.780 --> 00:08:20.223
+And then, things to automatically check.
+
+151
+00:08:21.620 --> 00:08:26.620
+This all is very helpful to review as well,
+
+152
+00:08:27.670 --> 00:08:31.360
+so this could be your guide for manual review as well.
+
+153
+00:08:31.360 --> 00:08:33.180
+You can run the automated checks,
+
+154
+00:08:33.180 --> 00:08:35.220
+have your developers run it if you're not a developer,
+
+155
+00:08:35.220 --> 00:08:38.080
+but then have them go through and do
+
+156
+00:08:38.080 --> 00:08:40.143
+the manual review steps as well.
+
+157
+00:08:41.060 --> 00:08:42.630
+And that would be for each page,
+
+158
+00:08:42.630 --> 00:08:45.930
+or each page type, each template on the site
+
+159
+00:08:45.930 --> 00:08:47.680
+is what I would recommend for that.
+
+160
+00:08:49.340 --> 00:08:54.340
+So, that is the Chrome audit via Lighthouse,
+
+161
+00:08:55.940 --> 00:08:59.740
+which is great, there's the WAVE tool
+
+162
+00:08:59.740 --> 00:09:02.340
+that is available as a browser plugin.
+
+163
+00:09:02.340 --> 00:09:05.770
+You can also just point sites at,
+
+164
+00:09:05.770 --> 00:09:08.060
+or point WAVE at sites, and it will crawl them,
+
+165
+00:09:08.060 --> 00:09:12.010
+or it will run a scan on a particular single page.
+
+166
+00:09:12.010 --> 00:09:15.960
+So let's look at this with WAVE.
+
+167
+00:09:15.960 --> 00:09:20.960
+So, with WAVE I have a tool here,
+
+168
+00:09:21.040 --> 00:09:23.870
+the WAVE extension, and it says WAVE this page.
+
+169
+00:09:23.870 --> 00:09:27.630
+So it just waved the page, and then it's saying,
+
+170
+00:09:27.630 --> 00:09:32.430
+okay, I've got zero errors here, which is great,
+
+171
+00:09:32.430 --> 00:09:36.090
+I have seven alerts, wonder what those are.
+
+172
+00:09:36.090 --> 00:09:39.010
+I have eight features, 13 structural elements,
+
+173
+00:09:39.010 --> 00:09:42.690
+and you can see it with styles, without styles,
+
+174
+00:09:42.690 --> 00:09:46.260
+which is a good way to check if the page makes sense
+
+175
+00:09:46.260 --> 00:09:51.130
+without your markup in terms of visual language,
+
+176
+00:09:51.130 --> 00:09:56.130
+and then contrast, are there contrast problems.
+
+177
+00:09:56.510 --> 00:09:59.090
+You know, here are contrast tools,
+
+178
+00:09:59.090 --> 00:10:02.750
+so you can basically check the contrast
+
+179
+00:10:02.750 --> 00:10:07.237
+of something and see if it meets the needs.
+
+180
+00:10:09.250 --> 00:10:12.070
+So these alerts, there are seven
+
+181
+00:10:12.070 --> 00:10:14.270
+possible headings on this page they're saying.
+
+182
+00:10:14.270 --> 00:10:16.200
+Hmm, is this a heading?
+
+183
+00:10:16.200 --> 00:10:19.570
+Yeah, I don't know, you know, is it, should it be?
+
+184
+00:10:19.570 --> 00:10:21.980
+If it is, then maybe that's a problem.
+
+185
+00:10:21.980 --> 00:10:23.490
+But they don't know, so they're just
+
+186
+00:10:23.490 --> 00:10:25.520
+flagging it as a possible issue.
+
+187
+00:10:25.520 --> 00:10:27.650
+There are six things that have form labels,
+
+188
+00:10:27.650 --> 00:10:31.570
+and they're all listed with green icons on them,
+
+189
+00:10:31.570 --> 00:10:34.800
+with a little tag, so that means these are good.
+
+190
+00:10:34.800 --> 00:10:36.290
+These are good form labels.
+
+191
+00:10:36.290 --> 00:10:37.860
+If these were not labeled correctly,
+
+192
+00:10:37.860 --> 00:10:42.860
+WAVE would have those under errors, and would tell you
+
+193
+00:10:43.710 --> 00:10:46.957
+how many form labels with a different icon,
+
+194
+00:10:46.957 --> 00:10:49.170
+with red on it in a different section
+
+195
+00:10:50.230 --> 00:10:55.210
+to alert you to an error.
+
+196
+00:10:55.210 --> 00:10:57.810
+So it tells you about the heading levels,
+
+197
+00:10:57.810 --> 00:11:00.810
+and things like that, and basically gives you
+
+198
+00:11:00.810 --> 00:11:03.670
+all of the page information.
+
+199
+00:11:03.670 --> 00:11:06.400
+You can see that you can get an outline with WAVE as well.
+
+200
+00:11:06.400 --> 00:11:10.100
+So you can do basic accessibility testing with WAVE
+
+201
+00:11:10.100 --> 00:11:12.743
+on any page very very easily.
+
